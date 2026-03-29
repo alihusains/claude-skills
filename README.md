@@ -193,7 +193,7 @@ For manual install instructions see the README in the `rules/` folder.
 /plugin list everything-claude-code@everything-claude-code
 ```
 
-✨ **That's it!** You now have access to 25 agents, 108 skills, and 57 commands.
+✨ **That's it!** You now have access to 25 agents, 103+ skills, and 60+ commands.
 
 ---
 
@@ -637,6 +637,16 @@ Copy the hooks from `hooks/hooks.json` to your `~/.claude/settings.json`.
 #### Configure MCPs
 
 Copy desired MCP servers from `mcp-configs/mcp-servers.json` to your `~/.claude.json`.
+
+**Bundled & Verified MCPs:**
+- **`github`** — PRs, issues, and repository operations
+- **`local-rag`** — Semantic search of local documentation
+- **`my-brain`** — Indexed archive of your AI conversations
+- **`code-index`** — Deep code understanding and indexing
+- **`insaits`** — AI-to-AI security monitoring and anomaly detection
+- **`context7`** — Live documentation lookup
+- **`playwright`** — Browser automation and E2E testing
+- **`macos-use-remote`** — Integration for remote macOS usage (Fazm)
 
 **Important:** Replace `YOUR_*_HERE` placeholders with your actual API keys.
 
