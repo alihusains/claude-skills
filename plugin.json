@@ -1,16 +1,25 @@
 {
   "name": "alihusains-ultimate-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alihusain's Ultimate Claude Code Setup. A comprehensive bundle of parallel swarm agents, autoresearch loops, hooks, MCP servers, and engineering skills.",
   "author": "Alihusain Sorathiya",
   "repository": "https://github.com/alihusains/claude-skills",
   "type": "bundle",
-  "features": [
-    "skills",
-    "agents",
-    "hooks",
-    "mcp-servers",
-    "autoresearch",
-    "workflows"
-  ]
+  "features": {
+    "skills": true,
+    "agents": true,
+    "hooks": true,
+    "mcp_servers": [
+      "ruflo",
+      "claude-flow",
+      "context-mode",
+      "context7",
+      "chrome-devtools",
+      "reddit-mcp-buddy",
+      "pencil",
+      "my-brain",
+      "CodeGraphContext",
+      "code-index"
+    ]
+  }
 }
