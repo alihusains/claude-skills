@@ -1,0 +1,42 @@
+[
+  {
+    "key": "ctrl+p",
+    "command": "/plan",
+    "description": "Quickly start a planning session"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "/tdd",
+    "description": "Start TDD workflow"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "/review",
+    "description": "Run code review on changes"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "/build",
+    "description": "Build the current project"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "/commit",
+    "description": "Invoke the commit workflow"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "/docs",
+    "description": "Documentation lookup"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "/loop",
+    "description": "Setup a recurring task"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "/multi-plan",
+    "description": "Launch parallel planning agents"
+  }
+]

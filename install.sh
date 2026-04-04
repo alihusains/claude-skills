@@ -1,17 +1,10 @@
-#!/usr/bin/env bash
-# install.sh — Legacy shell entrypoint for the ECC installer.
-#
-# This wrapper resolves the real repo/package root when invoked through a
-# symlinked npm bin, then delegates to the Node-based installer runtime.
-
-set -euo pipefail
-
-SCRIPT_PATH="$0"
-while [ -L "$SCRIPT_PATH" ]; do
-    link_dir="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
-    SCRIPT_PATH="$(readlink "$SCRIPT_PATH")"
-    [[ "$SCRIPT_PATH" != /* ]] && SCRIPT_PATH="$link_dir/$SCRIPT_PATH"
-done
-SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
-
-exec node "$SCRIPT_DIR/scripts/install-apply.js" "$@"
+#!/bin/bash
+echo "🚀 Installing Claude Complete Setup..."
+mkdir -p ~/.claude/{skills,agents,hooks,scripts}
+cp -rn skills/* ~/.claude/skills/ 2>/dev/null || true
+cp -rn agents/* ~/.claude/agents/ 2>/dev/null || true
+cp -rn hooks/* ~/.claude/hooks/ 2>/dev/null || true
+if [ -f settings.json ]; then
+  cp settings.json ~/.claude/settings.json
+fi
+echo "✅ Done! Your Claude Code is now fully evolved."

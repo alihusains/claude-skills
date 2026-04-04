@@ -1,0 +1,244 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "test",
+    "ANTHROPIC_BASE_URL": "http://localhost:8080",
+    "ANTHROPIC_MODEL": "claude-opus-4-6-thinking",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-6-thinking",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-4-6",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "gemini-3.1-flash-lite[1m]",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "gemini-3.1-flash-lite[1m]",
+    "ENABLE_EXPERIMENTAL_MCP_CLI": "true",
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
+    "DISABLE_AUTOUPDATER": "1",
+    "ENABLE_TOOL_SEARCH": "true",
+    "ECC_ENABLE_INSAITS": "1",
+    "ENABLE_LSP_TOOL": "1"
+  },
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "permissions": {
+    "allow": [
+      "*(*)",
+      "Read(*)",
+      "Search(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Bash(*)",
+      "mcp__*",
+      "mcp__plugin_context-mode_context-mode__*",
+      "mcp__ide__*",
+      "mcp__chrome-devtools__*",
+      "mcp__claude-in-chrome__*",
+      "mcp__playwright__*",
+      "mcp__tavily-web-search__tavily_search",
+      "mcp__tavily-web-search__tavily_extract",
+      "WebSearch",
+      "WebFetch(domain:*)",
+      "NotebookEdit(*)",
+      "mcp__pencil",
+      "TeamCreate(*)",
+      "TeamDelete(*)",
+      "SendMessage(*)",
+      "Agent(*)",
+      "TaskCreate(*)",
+      "TaskUpdate(*)",
+      "TaskGet(*)",
+      "TaskList(*)",
+      "TaskOutput(*)",
+      "TaskStop(*)"
+    ]
+  },
+  "model": "sonnet[1m]",
+  "enableAllProjectMcpServers": true,
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|WebFetch|Read|Grep|Agent|Task|mcp__plugin_context-mode_context-mode__ctx_execute|mcp__plugin_context-mode_context-mode__ctx_execute_file|mcp__plugin_context-mode_context-mode__ctx_batch_execute",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /Users/alihusainsorathiya/.claude/plugins/cache/context-mode/context-mode/1.0.54/hooks/pretooluse.mjs"
+          }
+        ]
+      },
+      {
+        "matcher": "tool == \"Edit\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/Users/alihusainsorathiya/.claude/plugins/cache/code-graph-mcp/code-graph-mcp/0.7.17/scripts/pre-edit-guide.js\"",
+            "timeout": 4
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /Users/alihusainsorathiya/.claude/plugins/cache/context-mode/context-mode/1.0.54/hooks/sessionstart.mjs"
+          }
+        ]
+      },
+      {
+        "matcher": "startup|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/Users/alihusainsorathiya/.claude/plugins/cache/code-graph-mcp/code-graph-mcp/0.7.17/scripts/session-init.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "tool == \"Write\" || tool == \"Edit\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/Users/alihusainsorathiya/.claude/plugins/cache/code-graph-mcp/code-graph-mcp/0.7.17/scripts/incremental-index.js\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/Users/alihusainsorathiya/.claude/plugins/cache/code-graph-mcp/code-graph-mcp/0.7.17/scripts/user-prompt-context.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "node \"/Users/alihusainsorathiya/.claude/plugins/cache/code-graph-mcp/code-graph-mcp/0.7.17/scripts/statusline-composite.js\""
+  },
+  "enabledPlugins": {
+    "context-mode@context-mode": true,
+    "superpowers@claude-plugins-official": true,
+    "superpowers@superpowers-marketplace": true,
+    "claude-md-management@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true,
+    "error-diagnostics@claude-code-workflows": true,
+    "code-graph-mcp@code-graph-mcp": true,
+    "dx@ykdojo": true,
+    "everything-claude-code@everything-claude-code": true,
+    "frontend-design@claude-plugins-official": true,
+    "engineering-skills@claude-code-skills": true,
+    "engineering-advanced-skills@claude-code-skills": true,
+    "product-skills@claude-code-skills": true,
+    "marketing-skills@claude-code-skills": true,
+    "ra-qm-skills@claude-code-skills": true,
+    "pm-skills@claude-code-skills": true,
+    "c-level-skills@claude-code-skills": true,
+    "business-growth-skills@claude-code-skills": true,
+    "finance-skills@claude-code-skills": true,
+    "pyright-lsp@claude-plugins-official": true,
+    "claude-code-setup@claude-plugins-official": true,
+    "ralph-loop@claude-plugins-official": true,
+    "awesome-claude-code-agents@awesome-claude-code-agents": true,
+    "claude-code-mcp@claude-code-mcp": true,
+    "claude-squad@claude-squad": true,
+    "swarm-sdk@swarm-sdk": true,
+    "prompt-improver@severity1-marketplace": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-code-workflows": {
+      "source": {
+        "source": "github",
+        "repo": "wshobson/agents"
+      }
+    },
+    "context-mode": {
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode"
+      }
+    },
+    "superpowers-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers-marketplace"
+      }
+    },
+    "code-graph-mcp": {
+      "source": {
+        "source": "github",
+        "repo": "sdsrss/code-graph-mcp"
+      }
+    },
+    "ykdojo": {
+      "source": {
+        "source": "github",
+        "repo": "ykdojo/claude-code-tips"
+      }
+    },
+    "everything-claude-code": {
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code"
+      }
+    },
+    "claude-code-skills": {
+      "source": {
+        "source": "github",
+        "repo": "alirezarezvani/claude-skills"
+      }
+    },
+    "claude-market": {
+      "source": {
+        "source": "github",
+        "repo": "claude-market/marketplace"
+      }
+    },
+    "browserbase": {
+      "source": {
+        "source": "github",
+        "repo": "browserbase/mcp-server-browserbase"
+      }
+    },
+    "awesome-claude-code-agents": {
+      "source": {
+        "source": "github",
+        "repo": "hesreallyhim/a-list-of-claude-code-agents"
+      }
+    },
+    "claude-code-mcp": {
+      "source": {
+        "source": "github",
+        "repo": "steipete/claude-code-mcp"
+      }
+    },
+    "claude-squad": {
+      "source": {
+        "source": "github",
+        "repo": "smtg-ai/claude-squad"
+      }
+    },
+    "swarm-sdk": {
+      "source": {
+        "source": "github",
+        "repo": "parruda/swarm"
+      }
+    },
+    "severity1-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "severity1/severity1-marketplace"
+      }
+    }
+  },
+  "skipDangerousModePermissionPrompt": true
+}
