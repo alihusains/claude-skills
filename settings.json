@@ -152,7 +152,8 @@
     "claude-code-mcp@claude-code-mcp": true,
     "claude-squad@claude-squad": true,
     "swarm-sdk@swarm-sdk": true,
-    "prompt-improver@severity1-marketplace": true
+    "prompt-improver@severity1-marketplace": true,
+    "alihusains-ultimate-setup": true
   },
   "extraKnownMarketplaces": {
     "claude-code-workflows": {
@@ -237,6 +238,12 @@
       "source": {
         "source": "github",
         "repo": "severity1/severity1-marketplace"
+      }
+    },
+    "alihusains-ultimate-setup": {
+      "source": {
+        "source": "github",
+        "repo": "alihusains/claude-skills"
       }
     }
   },
