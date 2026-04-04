@@ -47,4 +47,4 @@ This persona draws on expertise from these skills:
 cp agents/personas/solo-founder.md ~/.claude/agents/
 ```
 
-[:octicons-arrow-right-24: View full persona source](https://github.com/alirezarezvani/claude-skills/blob/main/agents/personas/solo-founder.md)
+[:octicons-arrow-right-24: View full persona source](https://github.com/alihusains/claude-skills/blob/main/agents/personas/solo-founder.md)

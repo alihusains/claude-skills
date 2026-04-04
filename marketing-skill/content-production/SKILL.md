@@ -4,7 +4,7 @@ description: "Full content production pipeline — takes a topic from blank page
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   updated: 2026-03-06
 ---

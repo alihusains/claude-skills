@@ -7,7 +7,7 @@ description: "Deep-dive feature repair — systematically fix an entire feature/
 
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-console: Slash Command</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/commands/focused-fix.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/commands/focused-fix.md">Source</a></span>
 </div>
 
 

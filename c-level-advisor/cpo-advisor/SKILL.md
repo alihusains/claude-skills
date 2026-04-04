@@ -4,7 +4,7 @@ description: "Product leadership for scaling companies. Product vision, portfoli
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: cpo-leadership
   updated: 2026-03-05

@@ -8,7 +8,7 @@ description: "Autonomous experiment loop that optimizes any file by a measurable
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-rocket-launch: Engineering - POWERFUL</span>
 <span class="meta-badge">:material-identifier: `autoresearch-agent`</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering/autoresearch-agent/SKILL.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/engineering/autoresearch-agent/SKILL.md">Source</a></span>
 </div>
 
 <div class="install-banner" markdown>
@@ -289,7 +289,7 @@ Flag these without being asked:
 
 ### One-liner (any tool)
 ```bash
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cp -r claude-skills/engineering/autoresearch-agent ~/.claude/skills/
 ```
 

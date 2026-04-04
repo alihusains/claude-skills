@@ -4,7 +4,7 @@ description: Analyzes campaign performance with multi-touch attribution, funnel 
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   domain: campaign-analytics
   updated: 2026-02-06

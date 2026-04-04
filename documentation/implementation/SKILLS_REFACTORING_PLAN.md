@@ -111,7 +111,7 @@ description: [What it does in 1 sentence]. [Key capabilities in 1 sentence]. Use
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing | c-level | product | engineering | regulatory
   domain: content | demand-gen | product-marketing | ceo-advisory | etc
   updated: 2025-10-20
@@ -142,7 +142,7 @@ description: Create SEO-optimized marketing content with consistent brand voice.
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   domain: content-marketing
   updated: 2025-10-20
@@ -168,7 +168,7 @@ description: Multi-channel demand generation, paid media optimization, SEO strat
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   domain: demand-generation
   updated: 2025-10-20
@@ -191,7 +191,7 @@ description: Product marketing, positioning, GTM strategy, and competitive intel
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   domain: product-marketing
   updated: 2025-10-20
@@ -214,7 +214,7 @@ description: Executive leadership guidance for strategic decision-making, organi
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: ceo-leadership
   updated: 2025-10-20
@@ -234,7 +234,7 @@ description: Technical leadership guidance for engineering teams, architecture d
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: cto-leadership
   updated: 2025-10-20
@@ -253,7 +253,7 @@ CTO, technical leadership, tech debt, technical debt, engineering team, team sca
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: product
   domain: [product-management|agile-delivery|product-strategy|ux-research|ui-design]
   updated: 2025-10-20
@@ -279,7 +279,7 @@ metadata:
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: engineering
   domain: [architecture|frontend|backend|fullstack|qa|devops|secops|review|security]
   updated: 2025-10-20
@@ -307,7 +307,7 @@ tech-stack: PyTorch, TensorFlow, Spark, Airflow, etc
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: regulatory-quality
   domain: [regulatory|quality-management|risk|security|audit|compliance]
   updated: 2025-10-20
@@ -563,7 +563,7 @@ license: MIT
 allowed-tools: Read, Write, Edit, Bash, Grep, Glob
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: engineering
   domain: fullstack-development
   updated: 2025-10-20
@@ -824,7 +824,7 @@ description: Create SEO-optimized marketing content with consistent brand voice.
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   domain: content-marketing
   updated: 2025-10-20
@@ -1176,7 +1176,7 @@ description: [existing description]
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   domain: content-marketing
   updated: 2025-10-20

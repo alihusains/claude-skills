@@ -19,7 +19,7 @@ hide:
 
 [Get Started](getting-started.md){ .md-button .md-button--primary }
 [Browse Skills](skills/){ .md-button }
-[GitHub :fontawesome-brands-github:](https://github.com/alirezarezvani/claude-skills){ .md-button }
+[GitHub :fontawesome-brands-github:](https://github.com/alihusains/claude-skills){ .md-button }
 
 </div>
 
@@ -255,7 +255,7 @@ hide:
 
     ```bash
     # Add the marketplace
-    /plugin marketplace add alirezarezvani/claude-skills
+    /plugin marketplace add alihusains/claude-skills
 
     # Install any skill bundle
     /plugin install engineering-skills@claude-code-skills
@@ -264,20 +264,20 @@ hide:
 === "OpenAI Codex"
 
     ```bash
-    npx agent-skills-cli add alirezarezvani/claude-skills --agent codex
+    npx agent-skills-cli add alihusains/claude-skills --agent codex
     ```
 
 === "Gemini CLI"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     cd claude-skills && ./scripts/gemini-install.sh
     ```
 
 === "Cursor / Windsurf / Aider"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     cd claude-skills
     ./scripts/convert.sh --tool cursor    # or windsurf, aider
     ./scripts/install.sh --tool cursor --target /path/to/project

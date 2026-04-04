@@ -4,7 +4,7 @@ description: "Multi-agent collaboration plugin that spawns N parallel subagents 
 license: MIT
 metadata:
   version: 2.1.2
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: engineering
   updated: 2026-03-17
 ---

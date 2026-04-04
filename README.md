@@ -1,3 +1,4 @@
+# 🚀 Alihusain's Ultimate Claude Code Setupnn
 # Claude Code Skills & Plugins — Agent Skills for Every Coding Tool
 
 **248 production-ready Claude Code skills, plugins, and agent skills for 11 AI coding tools.**
@@ -11,7 +12,7 @@ The most comprehensive open-source library of Claude Code skills and agent plugi
 [![Agents](https://img.shields.io/badge/Agents-23-blue?style=for-the-badge)](#agents)
 [![Personas](https://img.shields.io/badge/Personas-3-purple?style=for-the-badge)](#personas)
 [![Commands](https://img.shields.io/badge/Commands-22-orange?style=for-the-badge)](#commands)
-[![Stars](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=for-the-badge)](https://github.com/alirezarezvani/claude-skills/stargazers)
+[![Stars](https://img.shields.io/github/stars/alihusains/claude-skills?style=for-the-badge)](https://github.com/alihusains/claude-skills/stargazers)
 [![SkillCheck Validated](https://img.shields.io/badge/SkillCheck-Validated-4c1?style=for-the-badge)](https://getskillcheck.com)
 
 > **5,200+ GitHub stars** — the most comprehensive open-source Claude Code skills & agent plugins library.
@@ -47,7 +48,7 @@ All three work together. See [Orchestration](#orchestration) for how to combine 
 
 ```bash
 # Clone the repository
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cd claude-skills
 
 # Run the setup script
@@ -61,7 +62,7 @@ cd claude-skills
 
 ```bash
 # Add the marketplace
-/plugin marketplace add alirezarezvani/claude-skills
+/plugin marketplace add alihusains/claude-skills
 
 # Install by domain
 /plugin install engineering-skills@claude-code-skills          # 24 core engineering
@@ -84,20 +85,20 @@ cd claude-skills
 ### OpenAI Codex
 
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills --agent codex
+npx agent-skills-cli add alihusains/claude-skills --agent codex
 # Or: git clone + ./scripts/codex-install.sh
 ```
 
 ### OpenClaw
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/scripts/openclaw-install.sh)
+bash <(curl -s https://raw.githubusercontent.com/alihusains/claude-skills/main/scripts/openclaw-install.sh)
 ```
 
 ### Manual Installation
 
 ```bash
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 # Copy any skill folder to ~/.claude/skills/ (Claude Code) or ~/.codex/skills/ (Codex)
 ```
 
@@ -324,8 +325,8 @@ python3 product-team/landing-page-generator/scripts/landing_page_scaffolder.py c
 
 | Project | Description |
 |---------|-------------|
-| [**Claude Code Skills & Agents Factory**](https://github.com/alirezarezvani/claude-code-skills-agents-factory) | Methodology for building skills at scale |
-| [**Claude Code Tresor**](https://github.com/alirezarezvani/claude-code-tresor) | Productivity toolkit with 60+ prompt templates |
+| [**Claude Code Skills & Agents Factory**](https://github.com/alihusains/claude-code-skills-agents-factory) | Methodology for building skills at scale |
+| [**Claude Code Tresor**](https://github.com/alihusains/claude-code-tresor) | Productivity toolkit with 60+ prompt templates |
 | [**Product Manager Skills**](https://github.com/Digidai/product-manager-skills) | Senior PM agent with 6 knowledge domains, 12 templates, 30+ frameworks — discovery, strategy, delivery, SaaS metrics, career coaching, AI product craft |
 
 ---
@@ -333,10 +334,10 @@ python3 product-team/landing-page-generator/scripts/landing_page_scaffolder.py c
 ## FAQ
 
 **How do I install Claude Code plugins?**
-Add the marketplace with `/plugin marketplace add alirezarezvani/claude-skills`, then install any skill bundle with `/plugin install <name>@claude-code-skills`.
+Add the marketplace with `/plugin marketplace add alihusains/claude-skills`, then install any skill bundle with `/plugin install <name>@claude-code-skills`.
 
 **Do these skills work with OpenAI Codex / Cursor / Windsurf / Aider?**
-Yes. Skills work natively with 11 tools: Claude Code, OpenAI Codex, Gemini CLI, OpenClaw, Cursor, Aider, Windsurf, Kilo Code, OpenCode, Augment, and Antigravity. Run `./scripts/convert.sh --tool all` to convert for all tools, then install with `./scripts/install.sh --tool <name>`. See [Multi-Tool Integrations](https://alirezarezvani.github.io/claude-skills/integrations/) for details.
+Yes. Skills work natively with 11 tools: Claude Code, OpenAI Codex, Gemini CLI, OpenClaw, Cursor, Aider, Windsurf, Kilo Code, OpenCode, Augment, and Antigravity. Run `./scripts/convert.sh --tool all` to convert for all tools, then install with `./scripts/install.sh --tool <name>`. See [Multi-Tool Integrations](https://alihusains.github.io/claude-skills/integrations/) for details.
 
 **Will updating break my installation?**
 No. We follow semantic versioning and maintain backward compatibility within patch releases. Existing script arguments, plugin source paths, and SKILL.md structures are never changed in patch versions. See the [CHANGELOG](CHANGELOG.md) for details on each release.
@@ -345,7 +346,7 @@ No. We follow semantic versioning and maintain backward compatibility within pat
 Yes. All 332 Python CLI tools use the standard library only — zero pip installs required. Every script is verified to run with `--help`.
 
 **How do I create my own Claude Code skill?**
-Each skill is a folder with a `SKILL.md` (frontmatter + instructions), optional `scripts/`, `references/`, and `assets/`. See the [Skills & Agents Factory](https://github.com/alirezarezvani/claude-code-skills-agents-factory) for a step-by-step guide.
+Each skill is a folder with a `SKILL.md` (frontmatter + instructions), optional `scripts/`, `references/`, and `assets/`. See the [Skills & Agents Factory](https://github.com/alihusains/claude-code-skills-agents-factory) for a step-by-step guide.
 
 ---
 
@@ -369,8 +370,8 @@ MIT — see [LICENSE](LICENSE) for details.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=alirezarezvani/claude-skills&type=Date)](https://star-history.com/#alirezarezvani/claude-skills&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=alihusains/claude-skills&type=Date)](https://star-history.com/#alihusains/claude-skills&Date)
 
 ---
 
-**Built by [Alireza Rezvani](https://alirezarezvani.com)** · [Medium](https://alirezarezvani.medium.com) · [Twitter](https://twitter.com/nginitycloud)
+**Built by [Alihusain Sorathiya](https://alihusains.com)** · [Medium](https://alihusains.medium.com) · [Twitter](https://twitter.com/nginitycloud)

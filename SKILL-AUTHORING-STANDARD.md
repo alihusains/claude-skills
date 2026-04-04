@@ -13,7 +13,7 @@ description: "When to use this skill. Include trigger keywords and phrases users
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: domain-name
   updated: YYYY-MM-DD
 ---

@@ -24,8 +24,8 @@ Please **do not** create a public GitHub issue for security vulnerabilities. Thi
 Report security vulnerabilities through:
 
 **Primary Contact:**
-- **Website:** [alirezarezvani.com](https://alirezarezvani.com) (use contact form)
-- **Medium:** [@alirezarezvani](https://medium.com/@alirezarezvani) (private message)
+- **Website:** [alihusains.com](https://alihusains.com) (use contact form)
+- **Medium:** [@alihusains](https://medium.com/@alihusains) (private message)
 
 **Information to Include:**
 - Type of vulnerability
@@ -275,8 +275,8 @@ Security researchers who responsibly disclose will be:
 
 For security-related inquiries:
 
-- **Website:** [alirezarezvani.com](https://alirezarezvani.com)
-- **Blog:** [medium.com/@alirezarezvani](https://medium.com/@alirezarezvani)
+- **Website:** [alihusains.com](https://alihusains.com)
+- **Blog:** [medium.com/@alihusains](https://medium.com/@alihusains)
 - **GitHub Issues:** For non-security bugs only
 
 **Please do not use public channels for security vulnerabilities.**

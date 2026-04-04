@@ -8,7 +8,7 @@ description: "Financial Analyst agent for DCF valuation, financial modeling, bud
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-robot: Agent</span>
 <span class="meta-badge">:material-calculator-variant: Finance</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/agents/finance/cs-financial-analyst.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/agents/finance/cs-financial-analyst.md">Source</a></span>
 </div>
 
 
@@ -109,5 +109,5 @@ python ../../finance/financial-analyst/scripts/dcf_valuation.py valuation_data.j
 
 ## Related Agents
 
-- [cs-ceo-advisor](https://github.com/alirezarezvani/claude-skills/tree/main/agents/c-level/cs-ceo-advisor.md) -- Strategic financial decisions, board reporting, and fundraising planning
-- [cs-growth-strategist](https://github.com/alirezarezvani/claude-skills/tree/main/agents/business-growth/cs-growth-strategist.md) -- Revenue operations data and pipeline forecasting inputs
+- [cs-ceo-advisor](https://github.com/alihusains/claude-skills/tree/main/agents/c-level/cs-ceo-advisor.md) -- Strategic financial decisions, board reporting, and fundraising planning
+- [cs-growth-strategist](https://github.com/alihusains/claude-skills/tree/main/agents/business-growth/cs-growth-strategist.md) -- Revenue operations data and pipeline forecasting inputs

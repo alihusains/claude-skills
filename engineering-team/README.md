@@ -10,43 +10,43 @@ Install all engineering skills with one command:
 
 ```bash
 # Install all engineering skills to all supported agents
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team
+npx ai-agent-skills install alihusains/claude-skills/engineering-team
 
 # Install to Claude Code only
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team --agent claude
+npx ai-agent-skills install alihusains/claude-skills/engineering-team --agent claude
 
 # Install to Cursor only
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team --agent cursor
+npx ai-agent-skills install alihusains/claude-skills/engineering-team --agent cursor
 ```
 
 ### Install Individual Skills
 
 ```bash
 # Core Engineering
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-architect
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-frontend
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-backend
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-fullstack
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-qa
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-devops
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-secops
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/code-reviewer
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-security
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-architect
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-frontend
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-backend
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-fullstack
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-qa
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-devops
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-secops
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/code-reviewer
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-security
 
 # Cloud & Enterprise
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/aws-solution-architect
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/ms365-tenant-manager
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/aws-solution-architect
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/ms365-tenant-manager
 
 # Development Tools
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/tdd-guide
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/tech-stack-evaluator
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/tdd-guide
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/tech-stack-evaluator
 
 # AI/ML/Data
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-data-scientist
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-data-engineer
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-ml-engineer
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-prompt-engineer
-npx ai-agent-skills install alirezarezvani/claude-skills/engineering-team/senior-computer-vision
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-data-scientist
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-data-engineer
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-ml-engineer
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-prompt-engineer
+npx ai-agent-skills install alihusains/claude-skills/engineering-team/senior-computer-vision
 ```
 
 **Supported Agents:** Claude Code, Cursor, VS Code, Copilot, Goose, Amp, Codex

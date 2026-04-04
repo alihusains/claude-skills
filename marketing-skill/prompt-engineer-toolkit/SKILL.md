@@ -4,7 +4,7 @@ description: "Analyzes and rewrites prompts for better AI output, creates reusab
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   updated: 2026-03-06
 ---

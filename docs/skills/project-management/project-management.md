@@ -8,7 +8,7 @@ description: "6 project management agent skills and plugins for Claude Code, Cod
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-clipboard-check-outline: Project Management</span>
 <span class="meta-badge">:material-identifier: `project-management`</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/project-management/SKILL.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/project-management/SKILL.md">Source</a></span>
 </div>
 
 <div class="install-banner" markdown>
@@ -27,7 +27,7 @@ description: "6 project management agent skills and plugins for Claude Code, Cod
 
 ### Codex CLI
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills/project-management
+npx agent-skills-cli add alihusains/claude-skills/project-management
 ```
 
 ## Skills Overview

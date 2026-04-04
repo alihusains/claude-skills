@@ -26,35 +26,35 @@ Install all marketing skills with one command:
 
 ```bash
 # Install all marketing skills to all supported agents
-npx ai-agent-skills install alirezarezvani/claude-skills/marketing-skill
+npx ai-agent-skills install alihusains/claude-skills/marketing-skill
 
 # Install to Claude Code only
-npx ai-agent-skills install alirezarezvani/claude-skills/marketing-skill --agent claude
+npx ai-agent-skills install alihusains/claude-skills/marketing-skill --agent claude
 
 # Install to Cursor only
-npx ai-agent-skills install alirezarezvani/claude-skills/marketing-skill --agent cursor
+npx ai-agent-skills install alihusains/claude-skills/marketing-skill --agent cursor
 ```
 
 ### Install Individual Skills
 
 ```bash
 # Content Creator
-npx ai-agent-skills install alirezarezvani/claude-skills/marketing-skill/content-creator
+npx ai-agent-skills install alihusains/claude-skills/marketing-skill/content-creator
 
 # Demand Generation & Acquisition
-npx ai-agent-skills install alirezarezvani/claude-skills/marketing-skill/marketing-demand-acquisition
+npx ai-agent-skills install alihusains/claude-skills/marketing-skill/marketing-demand-acquisition
 
 # Product Marketing Strategy
-npx ai-agent-skills install alirezarezvani/claude-skills/marketing-skill/marketing-strategy-pmm
+npx ai-agent-skills install alihusains/claude-skills/marketing-skill/marketing-strategy-pmm
 
 # App Store Optimization
-npx ai-agent-skills install alirezarezvani/claude-skills/marketing-skill/app-store-optimization
+npx ai-agent-skills install alihusains/claude-skills/marketing-skill/app-store-optimization
 
 # Social Media Analyzer
-npx ai-agent-skills install alirezarezvani/claude-skills/marketing-skill/social-media-analyzer
+npx ai-agent-skills install alihusains/claude-skills/marketing-skill/social-media-analyzer
 
 # Campaign Analytics
-npx ai-agent-skills install alirezarezvani/claude-skills/marketing-skill/campaign-analytics
+npx ai-agent-skills install alihusains/claude-skills/marketing-skill/campaign-analytics
 ```
 
 **Supported Agents:** Claude Code, Cursor, VS Code, Copilot, Goose, Amp, Codex

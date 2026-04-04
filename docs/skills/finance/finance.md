@@ -8,7 +8,7 @@ description: "Financial analyst agent skill and plugin for Claude Code, Codex, G
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-calculator-variant: Finance</span>
 <span class="meta-badge">:material-identifier: `finance`</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/finance/SKILL.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/finance/SKILL.md">Source</a></span>
 </div>
 
 <div class="install-banner" markdown>
@@ -27,7 +27,7 @@ Production-ready financial analysis skill for strategic decision-making.
 
 ### Codex CLI
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills/finance
+npx agent-skills-cli add alihusains/claude-skills/finance
 ```
 
 ## Skills Overview

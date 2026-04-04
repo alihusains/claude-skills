@@ -4,7 +4,7 @@ description: "Revenue leadership for B2B SaaS companies. Revenue forecasting, sa
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: cro-leadership
   updated: 2026-03-05

@@ -8,7 +8,7 @@ description: "/em -hard-call — Framework for Decisions With No Good Options. A
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-account-tie: C-Level Advisory</span>
 <span class="meta-badge">:material-identifier: `hard-call`</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/executive-mentor/skills/hard-call/SKILL.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/c-level-advisor/executive-mentor/skills/hard-call/SKILL.md">Source</a></span>
 </div>
 
 <div class="install-banner" markdown>

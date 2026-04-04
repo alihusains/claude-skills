@@ -4,7 +4,7 @@ description: "When the user wants help with paid advertising campaigns on Google
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   updated: 2026-03-06
 ---

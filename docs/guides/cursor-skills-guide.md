@@ -13,7 +13,7 @@ Use 192 production-ready agent skills with Cursor IDE. Every skill converts to C
 
 ```bash
 # Clone the repository
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cd claude-skills
 
 # Convert all skills to Cursor format
@@ -72,10 +72,10 @@ cat .cursor/skills/frontend-design/SKILL.md >> .cursorrules
 
 ## Full Catalog
 
-All 192 skills across 9 domains. See the [full README](https://github.com/alirezarezvani/claude-skills) for the complete list.
+All 192 skills across 9 domains. See the [full README](https://github.com/alihusains/claude-skills) for the complete list.
 
 **Also works with:** Claude Code · OpenAI Codex · Gemini CLI · OpenClaw · Aider · Windsurf · Kilo Code · OpenCode · Augment · Antigravity
 
 ---
 
-*Last updated: March 2026 · [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)*
+*Last updated: March 2026 · [alihusains/claude-skills](https://github.com/alihusains/claude-skills)*

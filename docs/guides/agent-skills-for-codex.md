@@ -13,7 +13,7 @@ Use 192 production-ready agent skills with OpenAI Codex CLI. Every skill in this
 
 ```bash
 # Clone the repository
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cd claude-skills
 
 # Option 1: Install all skills for Codex
@@ -116,8 +116,8 @@ These same skills work on 10 other coding agents:
 
 Claude Code · Gemini CLI · Cursor · OpenClaw · Aider · Windsurf · Kilo Code · OpenCode · Augment · Antigravity
 
-See the [full README](https://github.com/alirezarezvani/claude-skills) for platform-specific install guides.
+See the [full README](https://github.com/alihusains/claude-skills) for platform-specific install guides.
 
 ---
 
-*Last updated: March 2026 · [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)*
+*Last updated: March 2026 · [alihusains/claude-skills](https://github.com/alihusains/claude-skills)*

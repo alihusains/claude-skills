@@ -4,7 +4,7 @@ description: "When the user wants to build a free tool for marketing — lead ge
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   updated: 2026-03-06
 ---

@@ -4,7 +4,7 @@ description: "Inter-agent communication protocol for C-suite agent teams. Define
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: agent-orchestration
   updated: 2026-03-05

@@ -201,8 +201,8 @@ Agent integration provides a workflow orchestration layer where specialized agen
 ## Related Documents
 
 - **Implementation Plan:** `documentation/implementation/implementation-plan-november-2025.md`
-- **GitHub Milestone:** [Skill-Agent Integration v1.0](https://github.com/alirezarezvani/claude-skills/milestone/1)
-- **Project Board:** [Project #9: @claude-code-skills](https://github.com/users/alirezarezvani/projects/9)
+- **GitHub Milestone:** [Skill-Agent Integration v1.0](https://github.com/alihusains/claude-skills/milestone/1)
+- **Project Board:** [Project #9: @claude-code-skills](https://github.com/users/alihusains/projects/9)
 - **GitHub Issues:** #8, #9, #11, #12, #13, #14, #15, #16
 - **Factory Reference:** `/Users/rezarezvani/projects/claude-code-skills-factory`
 

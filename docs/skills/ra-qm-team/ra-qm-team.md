@@ -8,7 +8,7 @@ description: "12 regulatory & QM agent skills and plugins for Claude Code, Codex
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-shield-check-outline: Regulatory & Quality</span>
 <span class="meta-badge">:material-identifier: `ra-qm-team`</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/SKILL.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/ra-qm-team/SKILL.md">Source</a></span>
 </div>
 
 <div class="install-banner" markdown>
@@ -27,7 +27,7 @@ description: "12 regulatory & QM agent skills and plugins for Claude Code, Codex
 
 ### Codex CLI
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills/ra-qm-team
+npx agent-skills-cli add alihusains/claude-skills/ra-qm-team
 ```
 
 ## Skills Overview

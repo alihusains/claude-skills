@@ -4,7 +4,7 @@ description: "When the user wants to design, launch, or optimize a referral or a
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   updated: 2026-03-06
 ---

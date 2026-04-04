@@ -2,7 +2,7 @@
 name: "business-growth-skills"
 description: "4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales engineer (RFP), revenue operations (pipeline, GTM), contract & proposal writer. Python tools (stdlib-only)."
 version: 1.1.0
-author: Alireza Rezvani
+author: Alihusain Sorathiya
 license: MIT
 tags:
   - business
@@ -29,7 +29,7 @@ agents:
 
 ### Codex CLI
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills/business-growth
+npx agent-skills-cli add alihusains/claude-skills/business-growth
 ```
 
 ## Skills Overview

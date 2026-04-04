@@ -90,14 +90,14 @@ mkdir -p documentation/delivery/sprint-11-06-2025
 **Steps:**
 ```bash
 # Create milestone via GitHub API
-gh api repos/alirezarezvani/claude-code-skills/milestones \
+gh api repos/alihusains/claude-code-skills/milestones \
   -f title="CS- Orchestrator Framework v1.0" \
   -f description="All-in-One orchestration system with task-based commands, multi-agent coordination, token optimization, and comprehensive documentation. Sprint: sprint-11-06-2025" \
   -f due_on="2025-11-10T23:59:59Z" \
   -f state="open"
 
 # Get milestone number for issue creation
-gh api repos/alirezarezvani/claude-code-skills/milestones | jq '.[] | select(.title=="CS- Orchestrator Framework v1.0") | .number'
+gh api repos/alihusains/claude-code-skills/milestones | jq '.[] | select(.title=="CS- Orchestrator Framework v1.0") | .number'
 # Save this number as MILESTONE_NUMBER
 ```
 
@@ -120,7 +120,7 @@ gh api repos/alirezarezvani/claude-code-skills/milestones | jq '.[] | select(.ti
 **Steps:**
 ```bash
 # Get milestone number from previous task
-MILESTONE_NUM=$(gh api repos/alirezarezvani/claude-code-skills/milestones | jq '.[] | select(.title=="CS- Orchestrator Framework v1.0") | .number')
+MILESTONE_NUM=$(gh api repos/alihusains/claude-code-skills/milestones | jq '.[] | select(.title=="CS- Orchestrator Framework v1.0") | .number')
 
 # Issue #1: Create sprint planning documents
 gh issue create \

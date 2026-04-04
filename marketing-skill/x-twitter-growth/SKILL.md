@@ -4,7 +4,7 @@ description: "X/Twitter growth engine for building audience, crafting viral cont
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   updated: 2026-03-10
 ---

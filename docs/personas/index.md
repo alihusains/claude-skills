@@ -67,7 +67,7 @@ cp agents/personas/startup-cto.md ~/.claude/agents/
 
 ### Create Your Own
 
-Use the [TEMPLATE.md](https://github.com/alirezarezvani/claude-skills/blob/main/agents/personas/TEMPLATE.md) to create custom personas with your own identity, skills, and workflows.
+Use the [TEMPLATE.md](https://github.com/alihusains/claude-skills/blob/main/agents/personas/TEMPLATE.md) to create custom personas with your own identity, skills, and workflows.
 
 ### Try in ChatGPT
 

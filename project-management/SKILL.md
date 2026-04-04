@@ -2,7 +2,7 @@
 name: "pm-skills"
 description: "6 project management agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL), Confluence expert, Atlassian admin, template creator. MCP integration for live Jira/Confluence automation."
 version: 1.0.0
-author: Alireza Rezvani
+author: Alihusain Sorathiya
 license: MIT
 tags:
   - project-management
@@ -30,7 +30,7 @@ agents:
 
 ### Codex CLI
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills/project-management
+npx agent-skills-cli add alihusains/claude-skills/project-management
 ```
 
 ## Skills Overview

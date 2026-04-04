@@ -149,7 +149,7 @@ jobs:
           # Step 1: Check if in Project
           PROJECT_ITEM=$(gh api graphql -f query='
             query {
-              repository(owner: "alirezarezvani", name: "claude-skills") {
+              repository(owner: "alihusains", name: "claude-skills") {
                 issue(number: ${{ github.event.issue.number }}) {
                   projectItems(first: 10) {
                     nodes {
@@ -164,12 +164,12 @@ jobs:
 
           if [ -z "$PROJECT_ITEM" ]; then
             echo "Adding to project..."
-            gh project item-add 9 --owner alirezarezvani --url ${{ github.event.issue.html_url }}
+            gh project item-add 9 --owner alihusains --url ${{ github.event.issue.html_url }}
             sleep 2
 
             PROJECT_ITEM=$(gh api graphql -f query='
               query {
-                repository(owner: "alirezarezvani", name: "claude-skills") {
+                repository(owner: "alihusains", name: "claude-skills") {
                   issue(number: ${{ github.event.issue.number }}) {
                     projectItems(first: 10) {
                       nodes {
@@ -213,7 +213,7 @@ jobs:
           # Step 3: Get Project IDs
           PROJECT_DATA=$(gh api graphql -f query='
             query {
-              user(login: "alirezarezvani") {
+              user(login: "alihusains") {
                 projectV2(number: 9) {
                   id
                   fields(first: 20) {

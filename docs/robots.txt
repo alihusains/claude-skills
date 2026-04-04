@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alirezarezvani.github.io/claude-skills/sitemap.xml
+Sitemap: https://alihusains.github.io/claude-skills/sitemap.xml

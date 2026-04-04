@@ -25,35 +25,35 @@ Install all project management skills with one command:
 
 ```bash
 # Install all PM skills to all supported agents
-npx ai-agent-skills install alirezarezvani/claude-skills/project-management
+npx ai-agent-skills install alihusains/claude-skills/project-management
 
 # Install to Claude Code only
-npx ai-agent-skills install alirezarezvani/claude-skills/project-management --agent claude
+npx ai-agent-skills install alihusains/claude-skills/project-management --agent claude
 
 # Install to Cursor only
-npx ai-agent-skills install alirezarezvani/claude-skills/project-management --agent cursor
+npx ai-agent-skills install alihusains/claude-skills/project-management --agent cursor
 ```
 
 ### Install Individual Skills
 
 ```bash
 # Senior Project Manager Expert
-npx ai-agent-skills install alirezarezvani/claude-skills/project-management/senior-pm
+npx ai-agent-skills install alihusains/claude-skills/project-management/senior-pm
 
 # Scrum Master Expert
-npx ai-agent-skills install alirezarezvani/claude-skills/project-management/scrum-master
+npx ai-agent-skills install alihusains/claude-skills/project-management/scrum-master
 
 # Atlassian Jira Expert
-npx ai-agent-skills install alirezarezvani/claude-skills/project-management/jira-expert
+npx ai-agent-skills install alihusains/claude-skills/project-management/jira-expert
 
 # Atlassian Confluence Expert
-npx ai-agent-skills install alirezarezvani/claude-skills/project-management/confluence-expert
+npx ai-agent-skills install alihusains/claude-skills/project-management/confluence-expert
 
 # Atlassian Administrator
-npx ai-agent-skills install alirezarezvani/claude-skills/project-management/atlassian-admin
+npx ai-agent-skills install alihusains/claude-skills/project-management/atlassian-admin
 
 # Atlassian Template Creator
-npx ai-agent-skills install alirezarezvani/claude-skills/project-management/atlassian-templates
+npx ai-agent-skills install alihusains/claude-skills/project-management/atlassian-templates
 ```
 
 **Supported Agents:** Claude Code, Cursor, VS Code, Copilot, Goose, Amp, Codex
@@ -289,7 +289,7 @@ mcp__atlassian__search_issues jql="project = PROJ AND status = 'In Progress'"
 
 1. **Install Senior PM Expert:**
    ```bash
-   npx ai-agent-skills install alirezarezvani/claude-skills/project-management/senior-pm
+   npx ai-agent-skills install alihusains/claude-skills/project-management/senior-pm
    ```
 
 2. **Use project charter template** from Atlassian Templates skill
@@ -300,7 +300,7 @@ mcp__atlassian__search_issues jql="project = PROJ AND status = 'In Progress'"
 
 1. **Install Scrum Master Expert:**
    ```bash
-   npx ai-agent-skills install alirezarezvani/claude-skills/project-management/scrum-master
+   npx ai-agent-skills install alihusains/claude-skills/project-management/scrum-master
    ```
 
 2. **Use sprint planning template** for next sprint
@@ -311,7 +311,7 @@ mcp__atlassian__search_issues jql="project = PROJ AND status = 'In Progress'"
 
 1. **Install Jira Expert:**
    ```bash
-   npx ai-agent-skills install alirezarezvani/claude-skills/project-management/jira-expert
+   npx ai-agent-skills install alihusains/claude-skills/project-management/jira-expert
    ```
 
 2. **Configure custom workflows** for your team
@@ -322,7 +322,7 @@ mcp__atlassian__search_issues jql="project = PROJ AND status = 'In Progress'"
 
 1. **Install Confluence Expert:**
    ```bash
-   npx ai-agent-skills install alirezarezvani/claude-skills/project-management/confluence-expert
+   npx ai-agent-skills install alihusains/claude-skills/project-management/confluence-expert
    ```
 
 2. **Design space architecture** for your organization

@@ -8,7 +8,7 @@ description: "/em -board-prep — Board Meeting Preparation. Agent skill for Cla
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-account-tie: C-Level Advisory</span>
 <span class="meta-badge">:material-identifier: `board-prep`</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/executive-mentor/skills/board-prep/SKILL.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/c-level-advisor/executive-mentor/skills/board-prep/SKILL.md">Source</a></span>
 </div>
 
 <div class="install-banner" markdown>

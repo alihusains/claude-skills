@@ -4,7 +4,7 @@ description: "Cross-functional what-if modeling for cascading multi-variable sce
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: strategic-planning
   updated: 2026-03-05

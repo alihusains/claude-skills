@@ -8,7 +8,7 @@ description: "4 business growth agent skills and plugins for Claude Code, Codex,
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-trending-up: Business & Growth</span>
 <span class="meta-badge">:material-identifier: `business-growth`</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/SKILL.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/business-growth/SKILL.md">Source</a></span>
 </div>
 
 <div class="install-banner" markdown>
@@ -27,7 +27,7 @@ description: "4 business growth agent skills and plugins for Claude Code, Codex,
 
 ### Codex CLI
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills/business-growth
+npx agent-skills-cli add alihusains/claude-skills/business-growth
 ```
 
 ## Skills Overview

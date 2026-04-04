@@ -14,7 +14,7 @@ Choose your platform and follow the steps:
     <ol class="install-steps">
       <li>
         <strong>Add the marketplace</strong>
-        <pre><code>/plugin marketplace add alirezarezvani/claude-skills</code></pre>
+        <pre><code>/plugin marketplace add alihusains/claude-skills</code></pre>
       </li>
       <li>
         <strong>Install the skills you need</strong>
@@ -28,20 +28,20 @@ Choose your platform and follow the steps:
 === "OpenAI Codex"
 
     ```bash
-    npx agent-skills-cli add alirezarezvani/claude-skills --agent codex
+    npx agent-skills-cli add alihusains/claude-skills --agent codex
     ```
 
     Or clone and install manually:
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     ./scripts/codex-install.sh
     ```
 
 === "Gemini CLI"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     ./scripts/gemini-install.sh
     ```
 
@@ -54,13 +54,13 @@ Choose your platform and follow the steps:
 === "OpenClaw"
 
     ```bash
-    bash <(curl -s https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/scripts/openclaw-install.sh)
+    bash <(curl -s https://raw.githubusercontent.com/alihusains/claude-skills/main/scripts/openclaw-install.sh)
     ```
 
 === "Cursor"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     cd claude-skills
     ./scripts/convert.sh --tool cursor
     ./scripts/install.sh --tool cursor --target /path/to/project
@@ -69,7 +69,7 @@ Choose your platform and follow the steps:
 === "Aider"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     cd claude-skills
     ./scripts/convert.sh --tool aider
     ./scripts/install.sh --tool aider --target /path/to/project
@@ -78,7 +78,7 @@ Choose your platform and follow the steps:
 === "Windsurf"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     cd claude-skills
     ./scripts/convert.sh --tool windsurf
     ./scripts/install.sh --tool windsurf --target /path/to/project
@@ -87,7 +87,7 @@ Choose your platform and follow the steps:
 === "Kilo Code"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     cd claude-skills
     ./scripts/convert.sh --tool kilocode
     ./scripts/install.sh --tool kilocode --target /path/to/project
@@ -96,7 +96,7 @@ Choose your platform and follow the steps:
 === "OpenCode"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     cd claude-skills
     ./scripts/convert.sh --tool opencode
     ./scripts/install.sh --tool opencode --target /path/to/project
@@ -105,7 +105,7 @@ Choose your platform and follow the steps:
 === "Augment"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     cd claude-skills
     ./scripts/convert.sh --tool augment
     ./scripts/install.sh --tool augment --target /path/to/project
@@ -114,7 +114,7 @@ Choose your platform and follow the steps:
 === "Antigravity"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     cd claude-skills
     ./scripts/convert.sh --tool antigravity
     ./scripts/install.sh --tool antigravity
@@ -123,7 +123,7 @@ Choose your platform and follow the steps:
 === "Manual"
 
     ```bash
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     # Copy any skill folder to ~/.claude/skills/
     ```
 
@@ -229,7 +229,7 @@ my-skill/
   assets/        # Templates (optional)
 ```
 
-See the [Skills & Agents Factory](https://github.com/alirezarezvani/claude-code-skills-agents-factory) for a complete guide.
+See the [Skills & Agents Factory](https://github.com/alihusains/claude-code-skills-agents-factory) for a complete guide.
 
 <hr class="section-divider">
 

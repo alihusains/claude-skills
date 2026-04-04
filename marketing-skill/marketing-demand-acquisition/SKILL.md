@@ -19,7 +19,7 @@ triggers:
   - HubSpot campaigns
 metadata:
   version: 1.1.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   domain: demand-generation
   updated: 2025-01

@@ -8,7 +8,7 @@ description: "Agile product ownership for backlog management and sprint executio
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-lightbulb-outline: Product</span>
 <span class="meta-badge">:material-identifier: `agile-product-owner`</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/product-team/agile-product-owner/SKILL.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/product-team/agile-product-owner/SKILL.md">Source</a></span>
 </div>
 
 <div class="install-banner" markdown>

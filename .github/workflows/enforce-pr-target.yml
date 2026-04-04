@@ -21,7 +21,7 @@ jobs:
             const author = pr.user.login;
 
             // Maintainers who can PR to main directly
-            const maintainers = ['alirezarezvani'];
+            const maintainers = ['alihusains'];
 
             if (maintainers.includes(author)) {
               console.log(`✅ ${author} is a maintainer — PR to main allowed.`);
@@ -38,7 +38,7 @@ jobs:
 
             Or I can do it for you — just click "Edit" at the top right of this PR and change the base branch to \`dev\`.
 
-            See our [Contributing Guide](https://github.com/alirezarezvani/claude-skills/blob/dev/CONTRIBUTING.md) for details.`;
+            See our [Contributing Guide](https://github.com/alihusains/claude-skills/blob/dev/CONTRIBUTING.md) for details.`;
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,

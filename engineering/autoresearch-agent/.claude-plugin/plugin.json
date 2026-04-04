@@ -3,11 +3,11 @@
   "description": "Autonomous experiment loop that optimizes any file by a measurable metric. 5 slash commands, 8 evaluators, configurable loop intervals (10min to monthly).",
   "version": "2.1.2",
   "author": {
-    "name": "Alireza Rezvani",
-    "url": "https://alirezarezvani.com"
+    "name": "Alihusain Sorathiya",
+    "url": "https://alihusains.com"
   },
-  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/autoresearch-agent",
-  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "homepage": "https://github.com/alihusains/claude-skills/tree/main/engineering/autoresearch-agent",
+  "repository": "https://github.com/alihusains/claude-skills",
   "license": "MIT",
   "skills": "./"
 }

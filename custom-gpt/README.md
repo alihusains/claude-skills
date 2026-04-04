@@ -2,7 +2,7 @@
 
 > **6 Custom GPTs** built on the Agent Skills library. Free to use in ChatGPT — no setup, no API keys, no installation.
 
-These GPTs bring production-grade expertise from the [Agent Skills](https://github.com/alirezarezvani/claude-skills) repository directly into ChatGPT. Each one packages domain-specific workflows, frameworks, and decision tools into a conversational interface.
+These GPTs bring production-grade expertise from the [Agent Skills](https://github.com/alihusains/claude-skills) repository directly into ChatGPT. Each one packages domain-specific workflows, frameworks, and decision tools into a conversational interface.
 
 ---
 
@@ -104,12 +104,12 @@ These GPTs bring production-grade expertise from the [Agent Skills](https://gith
 
 ## Want More?
 
-These GPTs are built from the [Agent Skills](https://github.com/alirezarezvani/claude-skills) open-source library — **177 skills, 16 agents, 3 personas** for AI coding tools.
+These GPTs are built from the [Agent Skills](https://github.com/alihusains/claude-skills) open-source library — **177 skills, 16 agents, 3 personas** for AI coding tools.
 
 If you use Claude Code, Codex, Gemini CLI, Cursor, or other AI coding tools, you can install the full skill library directly:
 
 ```bash
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cd claude-skills && ./scripts/install.sh
 ```
 
@@ -119,10 +119,10 @@ The GPTs above are a small sample. The full library covers engineering, product,
 
 ## Links
 
-- **Repository:** [github.com/alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
-- **Documentation:** [alirezarezvani.github.io/claude-skills](https://alirezarezvani.github.io/claude-skills/)
-- **Skills Browse:** [Full skill catalog](https://alirezarezvani.github.io/claude-skills/skills/)
+- **Repository:** [github.com/alihusains/claude-skills](https://github.com/alihusains/claude-skills)
+- **Documentation:** [alihusains.github.io/claude-skills](https://alihusains.github.io/claude-skills/)
+- **Skills Browse:** [Full skill catalog](https://alihusains.github.io/claude-skills/skills/)
 
 ## License
 
-The GPT configurations are proprietary. The underlying Agent Skills library is [MIT licensed](https://github.com/alirezarezvani/claude-skills/blob/main/LICENSE).
+The GPT configurations are proprietary. The underlying Agent Skills library is [MIT licensed](https://github.com/alihusains/claude-skills/blob/main/LICENSE).

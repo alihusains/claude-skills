@@ -4,7 +4,7 @@ description: "Adversarial thinking partner for founders and executives. Stress-t
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: executive-leadership
   updated: 2026-03-05

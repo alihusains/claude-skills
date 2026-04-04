@@ -4,7 +4,7 @@ description: "M&A strategy for acquiring companies or being acquired. Due dilige
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: ma-strategy
   updated: 2026-03-05

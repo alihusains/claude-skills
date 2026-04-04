@@ -4,7 +4,7 @@ description: Monitors customer health, predicts churn risk, and identifies expan
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: business-growth
   domain: customer-success
   updated: 2026-02-06

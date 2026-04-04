@@ -7,7 +7,7 @@ description: "Comprehensive audit pipeline for skills, plugins, agents, and comm
 
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-console: Slash Command</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/commands/plugin-audit.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/commands/plugin-audit.md">Source</a></span>
 </div>
 
 

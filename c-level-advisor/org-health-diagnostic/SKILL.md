@@ -4,7 +4,7 @@ description: "Cross-functional organizational health check combining signals fro
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: organizational-health
   updated: 2026-03-05

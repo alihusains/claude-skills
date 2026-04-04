@@ -1,11 +1,11 @@
 site_name: Claude Code Skills & Agent Plugins
-site_url: https://alirezarezvani.github.io/claude-skills/
+site_url: https://alihusains.github.io/claude-skills/
 site_description: "248 production-ready skills, 23 agents, 3 personas, and an orchestration protocol for 11 AI coding tools. Reusable expertise for engineering, product, marketing, compliance, and more."
-site_author: Alireza Rezvani
-repo_url: https://github.com/alirezarezvani/claude-skills
-repo_name: alirezarezvani/claude-skills
+site_author: Alihusain Sorathiya
+repo_url: https://github.com/alihusains/claude-skills
+repo_name: alihusains/claude-skills
 edit_uri: edit/main/docs/
-copyright: "Built by Alireza Rezvani"
+copyright: "Built by Alihusain Sorathiya"
 
 theme:
   name: material
@@ -59,13 +59,13 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/alirezarezvani/claude-skills
+      link: https://github.com/alihusains/claude-skills
       name: GitHub
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/nginitycloud
       name: Twitter
     - icon: fontawesome/brands/medium
-      link: https://alirezarezvani.medium.com
+      link: https://alihusains.medium.com
       name: Medium
   generator: false
 

@@ -4,7 +4,7 @@ description: "Build and maintain one coherent company story across all audiences
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: narrative-strategy
   updated: 2026-03-05

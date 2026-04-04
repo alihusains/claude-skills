@@ -4,7 +4,7 @@ description: "Structured research summarization agent skill for non-dev users. H
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: product
   updated: 2026-03-16
 ---
@@ -250,7 +250,7 @@ Flag these without being asked:
 
 ### One-liner (any tool)
 ```bash
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cp -r claude-skills/product-team/research-summarizer ~/.claude/skills/
 ```
 

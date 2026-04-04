@@ -4,7 +4,7 @@ description: "10 C-level advisory agent skills and plugins for Claude Code, Code
 license: MIT
 metadata:
   version: 2.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: executive-advisory
   updated: 2026-03-05

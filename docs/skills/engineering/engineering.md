@@ -8,7 +8,7 @@ description: "25 advanced engineering agent skills and plugins for Claude Code, 
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-rocket-launch: Engineering - POWERFUL</span>
 <span class="meta-badge">:material-identifier: `engineering`</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering/SKILL.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/engineering/SKILL.md">Source</a></span>
 </div>
 
 <div class="install-banner" markdown>
@@ -27,7 +27,7 @@ description: "25 advanced engineering agent skills and plugins for Claude Code, 
 
 ### Codex CLI
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills/engineering
+npx agent-skills-cli add alihusains/claude-skills/engineering
 ```
 
 ## Skills Overview

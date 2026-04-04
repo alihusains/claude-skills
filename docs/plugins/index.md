@@ -63,7 +63,7 @@ description: "28 installable agent plugins for Claude Code, Codex CLI, Gemini CL
 
     ```bash
     # Clone the repository
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
 
     # Symlinks are pre-configured in .codex/skills/
     ```
@@ -72,7 +72,7 @@ description: "28 installable agent plugins for Claude Code, Codex CLI, Gemini CL
 
     ```bash
     # Clone and run the sync script
-    git clone https://github.com/alirezarezvani/claude-skills.git
+    git clone https://github.com/alihusains/claude-skills.git
     cd claude-skills
     python3 scripts/sync-gemini-skills.py --verbose
     ```
@@ -80,7 +80,7 @@ description: "28 installable agent plugins for Claude Code, Codex CLI, Gemini CL
 === "OpenClaw"
 
     ```bash
-    curl -sL https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/scripts/openclaw-install.sh | bash
+    curl -sL https://raw.githubusercontent.com/alihusains/claude-skills/main/scripts/openclaw-install.sh | bash
     ```
 
 ---

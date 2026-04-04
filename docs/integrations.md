@@ -74,7 +74,7 @@ All 156 skills in this repository can be converted to work natively with **7 AI 
 ### 1. Convert
 
 ```bash
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cd claude-skills
 
 # Convert all skills for all tools (~15 seconds)

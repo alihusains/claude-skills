@@ -8,7 +8,7 @@ description: "23 engineering agent skills and plugins for Claude Code, Codex, Ge
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-code-braces: Engineering - Core</span>
 <span class="meta-badge">:material-identifier: `engineering-team`</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/SKILL.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/engineering-team/SKILL.md">Source</a></span>
 </div>
 
 <div class="install-banner" markdown>
@@ -27,7 +27,7 @@ description: "23 engineering agent skills and plugins for Claude Code, Codex, Ge
 
 ### Codex CLI
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills/engineering-team
+npx agent-skills-cli add alihusains/claude-skills/engineering-team
 ```
 
 ## Skills Overview

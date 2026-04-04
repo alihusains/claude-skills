@@ -13,7 +13,7 @@ Use 192 production-ready agent skills with Gemini CLI. Every skill in this colle
 
 ```bash
 # Clone the repository
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cd claude-skills
 
 # Run the Gemini setup script (converts and installs all skills)
@@ -109,8 +109,8 @@ These skills work on 10 other coding agents too:
 
 Claude Code · OpenAI Codex · Cursor · OpenClaw · Aider · Windsurf · Kilo Code · OpenCode · Augment · Antigravity
 
-See the [full catalog](https://github.com/alirezarezvani/claude-skills) for all 192 skills.
+See the [full catalog](https://github.com/alihusains/claude-skills) for all 192 skills.
 
 ---
 
-*Last updated: March 2026 · [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)*
+*Last updated: March 2026 · [alihusains/claude-skills](https://github.com/alihusains/claude-skills)*

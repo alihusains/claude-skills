@@ -2,7 +2,7 @@
 name: "finance-skills"
 description: "Financial analyst agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Ratio analysis, DCF valuation, budget variance, rolling forecasts. 4 Python tools (stdlib-only)."
 version: 1.0.0
-author: Alireza Rezvani
+author: Alihusain Sorathiya
 license: MIT
 tags:
   - finance
@@ -29,7 +29,7 @@ Production-ready financial analysis skill for strategic decision-making.
 
 ### Codex CLI
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills/finance
+npx agent-skills-cli add alihusains/claude-skills/finance
 ```
 
 ## Skills Overview

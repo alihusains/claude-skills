@@ -4,7 +4,7 @@ description: "Autonomous experiment loop that optimizes any file by a measurable
 license: MIT
 metadata:
   version: 2.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: engineering
   updated: 2026-03-13
 ---
@@ -284,7 +284,7 @@ Flag these without being asked:
 
 ### One-liner (any tool)
 ```bash
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cp -r claude-skills/engineering/autoresearch-agent ~/.claude/skills/
 ```
 

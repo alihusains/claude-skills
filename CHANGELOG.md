@@ -416,11 +416,11 @@ Major rewrite of existing skills following Anthropic's agent skills specificatio
 
 ---
 
-[Unreleased]: https://github.com/alirezarezvani/claude-skills/compare/v2.1.2...HEAD
-[2.1.2]: https://github.com/alirezarezvani/claude-skills/compare/v2.1.1...v2.1.2
-[2.1.1]: https://github.com/alirezarezvani/claude-skills/compare/v2.0.0...v2.1.1
-[2.0.0]: https://github.com/alirezarezvani/claude-skills/compare/v1.0.2...v2.0.0
-[1.1.0]: https://github.com/alirezarezvani/claude-skills/compare/v1.0.1...v1.1.0
-[1.0.2]: https://github.com/alirezarezvani/claude-skills/compare/v1.0.1...v1.0.2
-[1.0.1]: https://github.com/alirezarezvani/claude-skills/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/alirezarezvani/claude-skills/releases/tag/v1.0.0
+[Unreleased]: https://github.com/alihusains/claude-skills/compare/v2.1.2...HEAD
+[2.1.2]: https://github.com/alihusains/claude-skills/compare/v2.1.1...v2.1.2
+[2.1.1]: https://github.com/alihusains/claude-skills/compare/v2.0.0...v2.1.1
+[2.0.0]: https://github.com/alihusains/claude-skills/compare/v1.0.2...v2.0.0
+[1.1.0]: https://github.com/alihusains/claude-skills/compare/v1.0.1...v1.1.0
+[1.0.2]: https://github.com/alihusains/claude-skills/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/alihusains/claude-skills/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/alihusains/claude-skills/releases/tag/v1.0.0

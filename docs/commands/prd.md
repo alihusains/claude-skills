@@ -7,7 +7,7 @@ description: "Quick PRD generation command. Usage: /prd <feature-or-problem>. Sl
 
 <div class="page-meta" markdown>
 <span class="meta-badge">:material-console: Slash Command</span>
-<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/commands/prd.md">Source</a></span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alihusains/claude-skills/tree/main/commands/prd.md">Source</a></span>
 </div>
 
 

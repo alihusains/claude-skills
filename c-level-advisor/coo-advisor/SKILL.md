@@ -4,7 +4,7 @@ description: "Operations leadership for scaling companies. Process design, OKR e
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: coo-leadership
   updated: 2026-03-05

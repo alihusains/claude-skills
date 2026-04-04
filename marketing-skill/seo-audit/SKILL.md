@@ -4,7 +4,7 @@ description: When the user wants to audit, review, or diagnose SEO issues on the
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   updated: 2026-03-06
 ---

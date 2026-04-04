@@ -4,7 +4,7 @@ description: When the user wants to optimize post-signup onboarding, user activa
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   updated: 2026-03-06
 ---

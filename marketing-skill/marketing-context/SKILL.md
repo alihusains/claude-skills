@@ -4,7 +4,7 @@ description: "Create and maintain the marketing context document that all market
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: marketing
   updated: 2026-03-06
 ---

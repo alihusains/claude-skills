@@ -4,7 +4,7 @@ description: "Docker and container development agent skill and plugin for Docker
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: engineering
   updated: 2026-03-16
 ---
@@ -342,7 +342,7 @@ Flag these without being asked:
 
 ### One-liner (any tool)
 ```bash
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cp -r claude-skills/engineering/docker-development ~/.claude/skills/
 ```
 

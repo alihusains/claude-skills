@@ -44,7 +44,7 @@ This secret is already set up for Claude Code reviews.
 
 **Add to Repository:**
 
-1. Go to: https://github.com/alirezarezvani/claude-skills/settings/secrets/actions
+1. Go to: https://github.com/alihusains/claude-skills/settings/secrets/actions
 2. Click "New repository secret"
 3. **Name**: `PROJECTS_TOKEN`
 4. **Value**: [Paste your token]
@@ -58,18 +58,18 @@ Run these commands to create all required labels:
 
 ```bash
 # Status Labels (6)
-gh label create "status: triage" --color "fbca04" --description "To Triage column" --repo alirezarezvani/claude-skills
-gh label create "status: backlog" --color "d4c5f9" --description "Backlog column" --repo alirezarezvani/claude-skills
-gh label create "status: ready" --color "0e8a16" --description "Ready column" --repo alirezarezvani/claude-skills
-gh label create "status: in-progress" --color "1d76db" --description "In Progress column" --repo alirezarezvani/claude-skills
-gh label create "status: in-review" --color "d876e3" --description "In Review column" --repo alirezarezvani/claude-skills
-gh label create "status: done" --color "2ea44f" --description "Done column" --repo alirezarezvani/claude-skills
+gh label create "status: triage" --color "fbca04" --description "To Triage column" --repo alihusains/claude-skills
+gh label create "status: backlog" --color "d4c5f9" --description "Backlog column" --repo alihusains/claude-skills
+gh label create "status: ready" --color "0e8a16" --description "Ready column" --repo alihusains/claude-skills
+gh label create "status: in-progress" --color "1d76db" --description "In Progress column" --repo alihusains/claude-skills
+gh label create "status: in-review" --color "d876e3" --description "In Review column" --repo alihusains/claude-skills
+gh label create "status: done" --color "2ea44f" --description "Done column" --repo alihusains/claude-skills
 
 # Priority Labels (4)
-gh label create "P0" --color "b60205" --description "Critical priority" --repo alirezarezvani/claude-skills
-gh label create "P1" --color "d93f0b" --description "High priority" --repo alirezarezvani/claude-skills
-gh label create "P2" --color "fbca04" --description "Medium priority" --repo alirezarezvani/claude-skills
-gh label create "P3" --color "0e8a16" --description "Low priority" --repo alirezarezvani/claude-skills
+gh label create "P0" --color "b60205" --description "Critical priority" --repo alihusains/claude-skills
+gh label create "P1" --color "d93f0b" --description "High priority" --repo alihusains/claude-skills
+gh label create "P2" --color "fbca04" --description "Medium priority" --repo alihusains/claude-skills
+gh label create "P3" --color "0e8a16" --description "Low priority" --repo alihusains/claude-skills
 
 # Type Labels (already exist - verify)
 # bug, feature, documentation, enhancement, etc.
@@ -90,7 +90,7 @@ Your project board columns must match these exact names:
 
 **Verify Configuration:**
 
-1. Go to: https://github.com/users/alirezarezvani/projects/9
+1. Go to: https://github.com/users/alihusains/projects/9
 2. Check column names match exactly (case-sensitive)
 3. Ensure "Status" field exists
 
@@ -105,7 +105,7 @@ gh issue create \
   --title "Test: Automation Setup" \
   --body "Testing GitHub automation workflows" \
   --label "status: triage" \
-  --repo alirezarezvani/claude-skills
+  --repo alihusains/claude-skills
 ```
 
 **Expected Results:**
@@ -117,7 +117,7 @@ gh issue create \
 
 ```bash
 # Get the issue number from step 1, then:
-gh issue edit ISSUE_NUMBER --add-label "status: in-progress" --repo alirezarezvani/claude-skills
+gh issue edit ISSUE_NUMBER --add-label "status: in-progress" --repo alihusains/claude-skills
 ```
 
 **Expected Results:**
@@ -139,7 +139,7 @@ git push origin test/automation-setup
 gh pr create \
   --title "test: Verify automation workflows" \
   --body "Fixes #ISSUE_NUMBER" \
-  --repo alirezarezvani/claude-skills
+  --repo alihusains/claude-skills
 ```
 
 **Expected Results:**
@@ -227,7 +227,7 @@ Drag issue to "In Review" column on project board
 
 **Check:**
 ```bash
-gh secret list --repo alirezarezvani/claude-skills | grep PROJECTS_TOKEN
+gh secret list --repo alihusains/claude-skills | grep PROJECTS_TOKEN
 ```
 
 **Solution**: If missing, add PROJECTS_TOKEN (see Step 1 above)
@@ -238,7 +238,7 @@ gh secret list --repo alirezarezvani/claude-skills | grep PROJECTS_TOKEN
 
 **Check:**
 ```bash
-gh run list --workflow=claude-code-review.yml --limit 5 --repo alirezarezvani/claude-skills
+gh run list --workflow=claude-code-review.yml --limit 5 --repo alihusains/claude-skills
 ```
 
 **Solutions**:
@@ -266,10 +266,10 @@ gh api rate_limit --jq '.resources.core.remaining, .resources.graphql.remaining'
 
 ```bash
 # Check failed runs
-gh run list --status failure --limit 10 --repo alirezarezvani/claude-skills
+gh run list --status failure --limit 10 --repo alihusains/claude-skills
 
 # Verify secrets valid
-gh secret list --repo alirezarezvani/claude-skills
+gh secret list --repo alihusains/claude-skills
 ```
 
 ### Quarterly
@@ -312,7 +312,7 @@ gh secret list --repo alirezarezvani/claude-skills
 **Documentation:**
 - This setup guide
 - Individual workflow files in `.github/workflows/`
-- Factory reference: https://github.com/alirezarezvani/claude-code-skills-factory
+- Factory reference: https://github.com/alihusains/claude-code-skills-factory
 
 **Getting Help:**
 - Create issue with `question` label

@@ -4,7 +4,7 @@ description: "People leadership for scaling companies. Hiring strategy, compensa
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: chro-leadership
   updated: 2026-03-05

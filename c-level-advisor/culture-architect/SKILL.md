@@ -4,7 +4,7 @@ description: "Build, measure, and evolve company culture as operational behavior
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: culture-leadership
   updated: 2026-03-05

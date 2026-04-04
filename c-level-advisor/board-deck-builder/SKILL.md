@@ -4,7 +4,7 @@ description: "Assembles comprehensive board and investor update decks by pulling
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: board-governance
   updated: 2026-03-05

@@ -66,7 +66,7 @@ Days 5-6: Documentation & Testing
 ### Morning Session (3 hours)
 
 #### Task 1.1: Create Root Directory Structure
-**GitHub Issue:** [#8 - Create root-level directory structure](https://github.com/alirezarezvani/claude-skills/issues/8)
+**GitHub Issue:** [#8 - Create root-level directory structure](https://github.com/alihusains/claude-skills/issues/8)
 **Estimated Time:** 30 minutes
 **Priority:** P1 - CRITICAL (blocks all other work)
 
@@ -110,7 +110,7 @@ tree agents commands standards templates
 ---
 
 #### Task 1.2: Port Core Standards from Factory
-**GitHub Issue:** [#9 - Port core standards from factory](https://github.com/alirezarezvani/claude-skills/issues/9)
+**GitHub Issue:** [#9 - Port core standards from factory](https://github.com/alihusains/claude-skills/issues/9)
 **Estimated Time:** 2.5 hours
 **Priority:** P1 - HIGH
 **Depends On:** Task 1.1 (directories must exist)
@@ -230,7 +230,7 @@ tree agents commands standards templates
 **Status:** 🎯 NEXT - Foundation complete, ready for agent implementation
 
 #### Task 2.1: Create cs-content-creator Agent
-**GitHub Issue:** [#11 - Create marketing agents](https://github.com/alirezarezvani/claude-skills/issues/11)
+**GitHub Issue:** [#11 - Create marketing agents](https://github.com/alihusains/claude-skills/issues/11)
 **Estimated Time:** 2 hours
 **Priority:** P1 - HIGH
 
@@ -332,7 +332,7 @@ cd ../..
 ---
 
 #### Task 2.2: Create cs-demand-gen-specialist Agent
-**GitHub Issue:** [#11 - Create marketing agents](https://github.com/alirezarezvani/claude-skills/issues/11)
+**GitHub Issue:** [#11 - Create marketing agents](https://github.com/alihusains/claude-skills/issues/11)
 **Estimated Time:** 2 hours
 **Priority:** P1 - HIGH
 
@@ -351,7 +351,7 @@ cd ../..
 ### Day 3: C-Level Advisory Agents
 
 #### Task 3.1: Create cs-ceo-advisor Agent
-**GitHub Issue:** [#12 - Create C-level agents](https://github.com/alirezarezvani/claude-skills/issues/12)
+**GitHub Issue:** [#12 - Create C-level agents](https://github.com/alihusains/claude-skills/issues/12)
 **Estimated Time:** 2 hours
 **Priority:** P1 - HIGH
 
@@ -366,7 +366,7 @@ cd ../..
 ---
 
 #### Task 3.2: Create cs-cto-advisor Agent
-**GitHub Issue:** [#12 - Create C-level agents](https://github.com/alirezarezvani/claude-skills/issues/12)
+**GitHub Issue:** [#12 - Create C-level agents](https://github.com/alihusains/claude-skills/issues/12)
 **Estimated Time:** 2 hours
 **Priority:** P1 - HIGH
 
@@ -383,7 +383,7 @@ cd ../..
 ### Day 4: Product Agent + Template
 
 #### Task 4.1: Create cs-product-manager Agent
-**GitHub Issue:** [#13 - Create product agent](https://github.com/alirezarezvani/claude-skills/issues/13)
+**GitHub Issue:** [#13 - Create product agent](https://github.com/alihusains/claude-skills/issues/13)
 **Estimated Time:** 1.5 hours
 **Priority:** P1 - HIGH
 
@@ -398,7 +398,7 @@ cd ../..
 ---
 
 #### Task 4.2: Create Agent Template & Creation Guide
-**GitHub Issue:** [#14 - Create agent template and guide](https://github.com/alirezarezvani/claude-skills/issues/14)
+**GitHub Issue:** [#14 - Create agent template and guide](https://github.com/alihusains/claude-skills/issues/14)
 **Estimated Time:** 2 hours
 **Priority:** P2 - MEDIUM
 
@@ -482,7 +482,7 @@ gh issue edit 15 --remove-label "status:backlog" --add-label "status:in-progress
 ### Day 5: Documentation Updates
 
 #### Task 5.1: Update README.md
-**GitHub Issue:** [#15 - Update project documentation](https://github.com/alirezarezvani/claude-skills/issues/15)
+**GitHub Issue:** [#15 - Update project documentation](https://github.com/alihusains/claude-skills/issues/15)
 **Estimated Time:** 1 hour
 
 **Sections to Add:**
@@ -493,7 +493,7 @@ gh issue edit 15 --remove-label "status:backlog" --add-label "status:in-progress
 
 ### Installation
 ```bash
-git clone https://github.com/alirezarezvani/claude-skills.git
+git clone https://github.com/alihusains/claude-skills.git
 cd claude-skills
 # TODO: ./install.sh (Phase 3)
 ```
@@ -546,7 +546,7 @@ Specialized agents that orchestrate skills and provide guided workflows.
 ---
 
 #### Task 5.2: Create INSTALL.md
-**GitHub Issue:** [#15 - Update project documentation](https://github.com/alirezarezvani/claude-skills/issues/15)
+**GitHub Issue:** [#15 - Update project documentation](https://github.com/alihusains/claude-skills/issues/15)
 **Estimated Time:** 45 minutes
 
 **Contents:**
@@ -558,7 +558,7 @@ Specialized agents that orchestrate skills and provide guided workflows.
 ---
 
 #### Task 5.3: Create USAGE.md
-**GitHub Issue:** [#15 - Update project documentation](https://github.com/alirezarezvani/claude-skills/issues/15)
+**GitHub Issue:** [#15 - Update project documentation](https://github.com/alihusains/claude-skills/issues/15)
 **Estimated Time:** 1 hour
 
 **Contents:**
@@ -571,7 +571,7 @@ Specialized agents that orchestrate skills and provide guided workflows.
 ---
 
 #### Task 5.4: Update CLAUDE.md
-**GitHub Issue:** [#15 - Update project documentation](https://github.com/alirezarezvani/claude-skills/issues/15)
+**GitHub Issue:** [#15 - Update project documentation](https://github.com/alihusains/claude-skills/issues/15)
 **Estimated Time:** 30 minutes
 
 **Updates:**
@@ -586,7 +586,7 @@ Specialized agents that orchestrate skills and provide guided workflows.
 ### Day 6: Testing & Validation
 
 #### Task 6.1: Comprehensive Testing
-**GitHub Issue:** [#16 - Phase 1-2 Testing and Validation](https://github.com/alirezarezvani/claude-skills/issues/16)
+**GitHub Issue:** [#16 - Phase 1-2 Testing and Validation](https://github.com/alihusains/claude-skills/issues/16)
 **Estimated Time:** 2 hours
 
 **Test Categories:**
@@ -762,7 +762,7 @@ Closes #8, #9, #11, #12, #13, #14, #15, #16
 
 ## Milestone
 
-Completes: [Skill-Agent Integration v1.0](https://github.com/alirezarezvani/claude-skills/milestone/1) Phase 1-2
+Completes: [Skill-Agent Integration v1.0](https://github.com/alihusains/claude-skills/milestone/1) Phase 1-2
 
 ## Next Steps
 
@@ -874,9 +874,9 @@ gh issue list --milestone "Skill-Agent Integration v1.0" --state open
 
 - **Implementation Plan:** `documentation/implementation/implementation-plan-november-2025.md`
 - **Sprint Context:** `documentation/delivery/sprint-11-05-2025/context.md`
-- **GitHub Issues:** [#8](https://github.com/alirezarezvani/claude-skills/issues/8), [#9](https://github.com/alirezarezvani/claude-skills/issues/9), [#11](https://github.com/alirezarezvani/claude-skills/issues/11), [#12](https://github.com/alirezarezvani/claude-skills/issues/12), [#13](https://github.com/alirezarezvani/claude-skills/issues/13), [#14](https://github.com/alirezarezvani/claude-skills/issues/14), [#15](https://github.com/alirezarezvani/claude-skills/issues/15), [#16](https://github.com/alirezarezvani/claude-skills/issues/16)
-- **Milestone:** [Skill-Agent Integration v1.0](https://github.com/alirezarezvani/claude-skills/milestone/1)
-- **Project Board:** [Project #9](https://github.com/users/alirezarezvani/projects/9)
+- **GitHub Issues:** [#8](https://github.com/alihusains/claude-skills/issues/8), [#9](https://github.com/alihusains/claude-skills/issues/9), [#11](https://github.com/alihusains/claude-skills/issues/11), [#12](https://github.com/alihusains/claude-skills/issues/12), [#13](https://github.com/alihusains/claude-skills/issues/13), [#14](https://github.com/alihusains/claude-skills/issues/14), [#15](https://github.com/alihusains/claude-skills/issues/15), [#16](https://github.com/alihusains/claude-skills/issues/16)
+- **Milestone:** [Skill-Agent Integration v1.0](https://github.com/alihusains/claude-skills/milestone/1)
+- **Project Board:** [Project #9](https://github.com/users/alihusains/projects/9)
 
 ---
 

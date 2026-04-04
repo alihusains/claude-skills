@@ -4,7 +4,7 @@ description: "Financial leadership for startups and scaling companies. Financial
 license: MIT
 metadata:
   version: 1.0.0
-  author: Alireza Rezvani
+  author: Alihusain Sorathiya
   category: c-level
   domain: cfo-leadership
   updated: 2026-03-05

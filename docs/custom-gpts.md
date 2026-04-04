@@ -100,4 +100,4 @@ These GPTs are powered by the same skill definitions used by thousands of develo
 
 [Browse All Skills](skills/){ .md-button .md-button--primary }
 [Get Started](getting-started.md){ .md-button }
-[View on GitHub :fontawesome-brands-github:](https://github.com/alirezarezvani/claude-skills){ .md-button }
+[View on GitHub :fontawesome-brands-github:](https://github.com/alihusains/claude-skills){ .md-button }

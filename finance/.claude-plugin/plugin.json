@@ -3,11 +3,11 @@
   "description": "3 finance skills: financial analyst (ratio analysis, DCF valuation, budgeting, forecasting), SaaS metrics coach (ARR, MRR, churn, CAC, LTV, NRR, Quick Ratio, 12-month projections), and business investment advisor. 7 Python automation tools. Agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw.",
   "version": "2.1.2",
   "author": {
-    "name": "Alireza Rezvani",
-    "url": "https://alirezarezvani.com"
+    "name": "Alihusain Sorathiya",
+    "url": "https://alihusains.com"
   },
-  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/finance",
-  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "homepage": "https://github.com/alihusains/claude-skills/tree/main/finance",
+  "repository": "https://github.com/alihusains/claude-skills",
   "license": "MIT",
   "skills": "./"
 }
