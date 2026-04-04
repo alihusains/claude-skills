@@ -121,15 +121,15 @@
       "context-mode"
     ]
   },
-  "ruflow": {
+  "my_brain": {
+    "command": "<PATH_TO_PYTHON>/brain-mcp"
+  },
+  "ruflo": {
     "type": "stdio",
     "command": "npx",
     "args": [
       "-y",
-      "ruflow"
+      "ruflo"
     ]
-  },
-  "my_brain": {
-    "command": "<PATH_TO_PYTHON>/brain-mcp"
   }
 }
