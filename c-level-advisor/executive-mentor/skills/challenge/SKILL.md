@@ -1,6 +1,6 @@
 ---
 name: "challenge"
-description: "/em -challenge — Pre-Mortem Plan Analysis"
+description: "Challenge plan agent skill. This MCP plugin and Claude Code workflow conducts pre-mortem plan analysis. Compatible with Codex and Gemini CLI."
 ---
 
 # /em:challenge — Pre-Mortem Plan Analysis
