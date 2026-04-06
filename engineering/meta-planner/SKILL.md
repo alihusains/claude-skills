@@ -1,6 +1,6 @@
 ---
 name: meta-planner
-description: An autonomous Meta Planning Agent that dynamically generates, evaluates, and revises execution plans for complex tasks based on intermediate feedback and continuous learning.
+description: Autonomous Meta Planning agent skill. This MCP plugin and Claude Code workflow dynamically revises execution plans for complex tasks, orchestrating sub-agents based on continuous feedback.
 ---
 
 # Meta Planner
