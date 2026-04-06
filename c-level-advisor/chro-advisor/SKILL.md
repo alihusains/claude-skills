@@ -1,6 +1,6 @@
 ---
 name: "chro-advisor"
-description: "People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and retention. Use when building hiring plans, designing comp frameworks, restructuring teams, managing performance, building culture, or when user mentions CHRO, HR, people strategy, talent, headcount, compensation, org design, retention, or performance management."
+description: "CHRO advisor agent skill. This MCP plugin and Claude Code workflow guides HR, people, and hiring strategy. Compatible with Codex and Gemini CLI."
 license: MIT
 metadata:
   version: 1.0.0
