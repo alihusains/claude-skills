@@ -1,6 +1,6 @@
 ---
 name: "observability-designer"
-description: "Observability Designer (POWERFUL)"
+description: "Observability designer agent skill. This MCP plugin and Claude Code workflow scaffolds SLIs, SLOs, alerts, and dashboards. Compatible with Codex and Gemini CLI."
 ---
 
 # Observability Designer (POWERFUL)
