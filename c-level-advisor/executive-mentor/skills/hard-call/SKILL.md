@@ -1,6 +1,6 @@
 ---
 name: "hard-call"
-description: "/em -hard-call — Framework for Decisions With No Good Options"
+description: "Hard call agent skill. This MCP plugin and Claude Code workflow assists in decisions with no good options. Compatible with Codex and Gemini CLI."
 ---
 
 # /em:hard-call — Framework for Decisions With No Good Options
