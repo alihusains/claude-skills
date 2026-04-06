@@ -1,6 +1,6 @@
 ---
 name: "dependency-auditor"
-description: "Dependency Auditor"
+description: "Dependency auditor agent skill. This MCP plugin and Claude Code workflow scans dependencies for vulnerabilities and plans upgrades. Compatible with Codex and Gemini CLI."
 ---
 
 # Dependency Auditor
