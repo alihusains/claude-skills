@@ -1,6 +1,6 @@
 ---
 name: "board-prep"
-description: "/em -board-prep — Board Meeting Preparation"
+description: "Board prep agent skill. This MCP plugin and Claude Code workflow prepares you for hard board meetings. Compatible with Codex and Gemini CLI."
 ---
 
 # /em:board-prep — Board Meeting Preparation
