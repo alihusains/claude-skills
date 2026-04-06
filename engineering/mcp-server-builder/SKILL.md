@@ -1,6 +1,6 @@
 ---
 name: "mcp-server-builder"
-description: "MCP Server Builder"
+description: "MCP server builder agent skill. This plugin and Claude Code workflow scaffolds robust tool schemas from APIs. Compatible with Codex and Gemini CLI."
 ---
 
 # MCP Server Builder
