@@ -1,6 +1,6 @@
 ---
 name: "agent-designer"
-description: "Use when the user asks to design multi-agent systems, create agent architectures, define agent communication patterns, or build autonomous agent workflows."
+description: "Design multi-agent systems, architectures, and autonomous workflows. This Claude Code agent skill and MCP plugin helps define communication patterns across agent teams."
 ---
 
 # Agent Designer - Multi-Agent System Architecture
