@@ -27,23 +27,28 @@ When invoked, the R&D Team follows this strict sequence:
 - Review recent updates in the codebase or specific domains (e.g., `skills/engineering/`).
 - Audit the `sourcelist.md` for pending integrations.
 
-### 2. Identify High-Impact Improvements
+### 2. Skill Cleanup, Upgrade, Improvement & Optimization
+- **Deduplication:** When checking for new skills or reviewing the existing library, actively scan for duplicates. If found, compare them, extract the best methodologies from both, and merge them into a single, unified skill.
+- **Continuous Power-Scaling:** Ensure that with every upgrade or merge, the resulting skill becomes demonstrably more powerful and robust.
+- **Quality Over Everything:** Prioritize code quality and optimization. Strip out redundant instructions to save tokens, ensuring the workspace becomes smarter, leaner, and more efficient with each commit.
+
+### 3. Identify High-Impact Improvements
 - Generate 1-2 actionable tasks based on the analysis.
 - Prioritize: UI/UX improvements, missing testing capabilities, new MCP server integrations, or code modularity.
 
-### 3. Execute in Parallel
+### 4. Execute in Parallel
 - Spawn specialized subagents using the Agent tool (e.g., `feature-dev:code-architect` or `ecc:planner`).
 - Have agents draft the new skill markdown, python tools, or UI components.
 
-### 4. Validate
+### 5. Validate
 - Verify the generated code and markdown formats.
 - Check that nothing breaks existing workflows or the MkDocs site (`mkdocs build --strict`).
 
-### 5. Update Documentation
+### 6. Update Documentation
 - Ensure new skills are added to `mkdocs.yml` navigation.
 - Update `CHANGELOG.md` with the new additions.
 
-### 6. Commit and Release
+### 7. Commit and Release
 - Create structured, conventional commits.
 - Format: `feat(rd-team): add new continuous improvement skill`
 - Generate a release if requested.

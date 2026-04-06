@@ -42,6 +42,18 @@ def analyze_system(workspace_root: str):
 
     print(f"📊 Found {analysis['total_skills']} skills and {analysis['total_scripts']} Python tools.")
 
+    # Check for potential skill duplicates based on naming similarities
+    skill_names = [skill.parent.name for skill in skills]
+    potential_duplicates = []
+    for i, name1 in enumerate(skill_names):
+        for name2 in skill_names[i+1:]:
+            set1 = set(name1.replace('-', ' ').replace('_', ' ').split())
+            set2 = set(name2.replace('-', ' ').replace('_', ' ').split())
+            if len(set1.intersection(set2)) >= 2 and name1 != name2:
+                potential_duplicates.append(f"{name1} <-> {name2}")
+
+    analysis["potential_duplicates"] = list(set(potential_duplicates))
+
     # Check for empty script directories
     empty_dirs = []
     for skill in skills:
@@ -60,15 +72,29 @@ def analyze_system(workspace_root: str):
 def identify_improvements(analysis: dict):
     """Generates actionable R&D tasks based on analysis."""
     print("💡 Phase 2: Identifying High-Impact Improvements...")
+    print("   [Rule: Skill Cleanup, Upgrade & Optimization]")
 
     tasks = []
+
+    # 1. Deduplication Task
+    if analysis.get("potential_duplicates"):
+        # Select up to 2 pairs to avoid overwhelming the output
+        dupes = " | ".join(analysis["potential_duplicates"][:2])
+        tasks.append(f"Skill Cleanup (Deduplication): Compare potential duplicates ({dupes}), extract the best from both, and merge into one.")
+    else:
+        tasks.append("Skill Cleanup (Deduplication): Scan for functional overlaps, compare, and merge the best features into single skills.")
+
+    # 2. Continuous Power-Scaling
+    tasks.append("Continuous Upgrade: Select 3 core skills and enhance their capabilities so they become more powerful with this merge.")
+
+    # 3. Quality & Token Optimization
+    tasks.append("Quality & Optimization: Refactor skill instructions to prioritize quality over anything. Optimize token usage to make the workspace smarter and leaner.")
 
     if analysis.get("skills_needing_tools"):
         targets = ", ".join(analysis["skills_needing_tools"][:3])
         tasks.append(f"Develop Python CLI tools for skills: {targets}")
 
     tasks.append("Audit recently added MCP servers from sourcelist.md and build integration skills.")
-    tasks.append("Run Tessl quality optimization on skills below 80% score.")
 
     print("\n🚀 Recommended R&D Tasks:")
     for i, task in enumerate(tasks, 1):
