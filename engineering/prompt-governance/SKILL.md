@@ -1,6 +1,6 @@
 ---
 name: prompt-governance
-description: "Use when managing prompts in production at scale: versioning prompts, running A/B tests on prompts, building prompt registries, preventing prompt regressions, or creating eval pipelines for production AI features. Triggers: 'manage prompts in production', 'prompt versioning', 'prompt regression', 'prompt A/B test', 'prompt registry', 'eval pipeline'. NOT for writing or improving individual prompts (use senior-prompt-engineer). NOT for RAG pipeline design (use rag-architect). NOT for LLM cost reduction (use llm-cost-optimizer)."
+description: "Prompt governance agent skill. This MCP plugin and Claude Code workflow tests prompts, manages versions, and builds registries. Compatible with Codex and Gemini CLI."
 ---
 
 # Prompt Governance
