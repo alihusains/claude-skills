@@ -1,6 +1,6 @@
 ---
 name: "rag-architect"
-description: "Use when the user asks to design RAG pipelines, optimize retrieval strategies, choose embedding models, implement vector search, or build knowledge retrieval systems."
+description: "RAG architect agent skill. This MCP plugin and Claude Code workflow designs retrieval pipelines and vector search. Compatible with Codex and Gemini CLI."
 ---
 
 # RAG Architect - POWERFUL
