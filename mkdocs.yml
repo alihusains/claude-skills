@@ -374,6 +374,15 @@ nav:
     - "Solo Founder": personas/solo-founder.md
   - Orchestration: orchestration.md
   - Custom GPTs: custom-gpts.md
+  - Guides:
+    - "Hooks Guide": guides/hooks-guide.md
+    - "Autoresearch Guide": guides/autoresearch-guide.md
+    - "Self-Improving Agent": guides/self-improving-agent-guide.md
+    - "Agent Skills for Codex": guides/agent-skills-for-codex.md
+    - "Best Claude Code Plugins": guides/best-claude-code-plugins.md
+    - "Cursor Skills Guide": guides/cursor-skills-guide.md
+    - "Gemini CLI Skills Guide": guides/gemini-cli-skills-guide.md
+    - "OpenClaw Skills Guide": guides/openclaw-skills-guide.md
   - Sources: sources.md
   - Agents:
     - Overview: agents/index.md
