@@ -1,6 +1,6 @@
 ---
 name: llm-cost-optimizer
-description: "Use when you need to reduce LLM API spend, control token usage, route between models by cost/quality, implement prompt caching, or build cost observability for AI features. Triggers: 'my AI costs are too high', 'optimize token usage', 'which model should I use', 'LLM spend is out of control', 'implement prompt caching'. NOT for RAG pipeline design (use rag-architect). NOT for prompt writing quality (use senior-prompt-engineer)."
+description: "LLM cost optimizer agent skill. This MCP plugin and Claude Code workflow cuts AI spend, controls tokens, and routes models. Compatible with Codex and Gemini CLI."
 ---
 
 # LLM Cost Optimizer
