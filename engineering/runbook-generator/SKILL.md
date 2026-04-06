@@ -1,6 +1,6 @@
 ---
 name: "runbook-generator"
-description: "Runbook Generator"
+description: "Runbook generator agent skill. This MCP plugin and Claude Code workflow builds operational runbooks and incident playbooks. Compatible with Codex and Gemini CLI."
 ---
 
 # Runbook Generator
