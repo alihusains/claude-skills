@@ -1,6 +1,6 @@
 ---
 name: "changelog-generator"
-description: "Changelog Generator"
+description: "Changelog generator agent skill. This MCP plugin and Claude Code workflow automates release notes from git commits. Compatible with Codex and Gemini CLI."
 ---
 
 # Changelog Generator
