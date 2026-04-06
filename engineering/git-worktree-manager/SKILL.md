@@ -1,6 +1,6 @@
 ---
 name: "git-worktree-manager"
-description: "Git Worktree Manager"
+description: "Git worktree manager agent skill. This MCP plugin and Claude Code workflow isolates parallel branches and port allocations. Compatible with Codex and Gemini CLI."
 ---
 
 # Git Worktree Manager
