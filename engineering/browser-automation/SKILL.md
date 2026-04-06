@@ -1,6 +1,6 @@
 ---
 name: "browser-automation"
-description: "Use when the user asks to automate browser tasks, scrape websites, fill forms, capture screenshots, extract structured data from web pages, or build web automation workflows. NOT for testing — use playwright-pro for that."
+description: "Browser automation agent skill. This MCP plugin and Claude Code workflow extracts web data, scrapes sites, and fills forms. Compatible with Codex and Gemini CLI."
 ---
 
 # Browser Automation - POWERFUL
