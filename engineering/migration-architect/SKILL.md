@@ -1,6 +1,6 @@
 ---
 name: "migration-architect"
-description: "Migration Architect"
+description: "Migration architect agent skill. This MCP plugin and Claude Code workflow scaffolds migration plans and database schemas. Compatible with Codex and Gemini CLI."
 ---
 
 # Migration Architect
