@@ -1,6 +1,6 @@
 ---
 name: "scenario-war-room"
-description: "Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity across all business functions simultaneously. Use when facing complex risk scenarios, strategic decisions with major downside, or when the user asks 'what if X AND Y both happen?'"
+description: "Scenario war room agent skill. This MCP plugin and Claude Code workflow models what-if and compound risk scenarios. Compatible with Codex and Gemini CLI."
 license: MIT
 metadata:
   version: 1.0.0
