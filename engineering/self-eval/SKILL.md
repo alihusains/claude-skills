@@ -1,6 +1,6 @@
 ---
 name: "self-eval"
-description: "Honestly evaluate AI work quality using a two-axis scoring system. Use after completing a task, code review, or work session to get an unbiased assessment. Detects score inflation, forces devil's advocate reasoning, and persists scores across sessions."
+description: "Self-eval agent skill. This MCP plugin and Claude Code workflow honestly evaluates AI work quality using a two-axis system. Compatible with Codex and Gemini CLI."
 license: "MIT"
 ---
 
