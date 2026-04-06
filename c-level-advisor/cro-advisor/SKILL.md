@@ -1,6 +1,6 @@
 ---
 name: "cro-advisor"
-description: "Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief revenue officer, revenue strategy, sales model, ARR growth, NRR, expansion revenue, churn, pricing strategy, or sales capacity."
+description: "CRO advisor agent skill. This MCP plugin and Claude Code workflow offers revenue strategy and sales modeling. Compatible with Codex and Gemini CLI."
 license: MIT
 metadata:
   version: 1.0.0
