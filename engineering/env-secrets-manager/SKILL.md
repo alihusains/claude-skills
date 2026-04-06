@@ -1,6 +1,6 @@
 ---
 name: "env-secrets-manager"
-description: "Env & Secrets Manager"
+description: "Env & secrets manager agent skill. This MCP plugin and Claude Code workflow audits env files, detects leaks, and plans rotation. Compatible with Codex and Gemini CLI."
 ---
 
 # Env & Secrets Manager
