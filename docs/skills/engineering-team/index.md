@@ -1,13 +1,13 @@
 ---
 title: "Engineering - Core Skills — Agent Skills & Codex Plugins"
-description: "51 engineering - core skills — engineering agent skill and Claude Code plugin for code generation, DevOps, architecture, and testing. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+description: "52 engineering - core skills — engineering agent skill and Claude Code plugin for code generation, DevOps, architecture, and testing. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
 ---
 
 <div class="domain-header" markdown>
 
 # :material-code-braces: Engineering - Core
 
-<p class="domain-count">51 skills in this domain</p>
+<p class="domain-count">52 skills in this domain</p>
 
 </div>
 
@@ -34,6 +34,12 @@ description: "51 engineering - core skills — engineering agent skill and Claud
     ---
 
     AI and LLM security assessment skill for detecting prompt injection, jailbreak vulnerabilities, model inversion risk,...
+
+-   **[Autonomous R&D Team](autonomous-rd-team.md)**
+
+    ---
+
+    An orchestrator skill that activates a multi-agent R&D team to continuously improve the user's Claude workspace, skil...
 
 -   **[AWS Solution Architect](aws-solution-architect.md)**
 

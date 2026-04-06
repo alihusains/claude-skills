@@ -5,6 +5,18 @@ All notable changes to the Claude Skills Library will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.0] - 2026-04-06
+
+### Added — Autonomous R&D & UI Overhaul
+
+**1 New Engineering Skill (engineering-team):**
+- **autonomous-rd-team** — Orchestrator skill that activates a multi-agent R&D team to continuously improve the workspace, analyze skills, execute in parallel, and push updates using GitOps.
+
+### Changed
+- **MkDocs Theme** — Completely overhauled `extra.css` with a sleek, premium, "amazing" UI/UX featuring glassmorphism, nice glowing gradients, smooth button animations, and slick shadows for cards.
+- **sourcelist.md** — Added new officially curated MCP server repositories and autonomous agent workflow references.
+- **SOUL.md** — Updated personalization to reflect the user's focus on modern styling, clean architecture, and continuous R&D loops.
+
 ## [2.2.0] - 2026-03-31
 
 ### Added — Security Skills Suite & Self-Eval

@@ -15,12 +15,14 @@ This project aggregates the best skills, agents, MCP servers, tools, hooks, and 
 | 7 | [peterskoett/self-improving-agent](https://github.com/peterskoett/self-improving-agent) | Self-improving agent that learns from interactions and extracts skills | Self-improving agent pattern, memory management, skill extraction |
 | 8 | [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | Autonomous research agent based on Andrej Karpathy's approach | Autoresearch skill, autonomous loop patterns |
 | 9 | [soulfir/miguel](https://github.com/soulfir/miguel) | Miguel — advanced agent framework with sophisticated patterns | Agent framework patterns, workflow orchestration |
+| 10 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Official reference MCP servers for various tools | MCP server configurations and integration patterns |
+| 11 | [cline/cline](https://github.com/cline/cline) | Autonomous coding agent workflows and IDE integrations | IDE autonomous loop patterns |
 
 ## Additional References
 
 | # | Source | Type | Description |
 |---|--------|------|-------------|
-| 10 | [Medium: Universal Autoresearch Skill](https://medium.com/@k.balu124/i-turned-andrej-karpathys-autoresearch-into-a-universal-skill-1cb3d44fc669) | Article | Guide on turning Karpathy's autoresearch into a universal Claude Code skill |
+| 12 | [Medium: Universal Autoresearch Skill](https://medium.com/@k.balu124/i-turned-andrej-karpathys-autoresearch-into-a-universal-skill-1cb3d44fc669) | Article | Guide on turning Karpathy's autoresearch into a universal Claude Code skill |
 
 ## Aggregation Philosophy
 

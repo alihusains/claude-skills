@@ -1,6 +1,6 @@
 ---
 title: "Focused Fix — Deep-Dive Feature Repair — Agent Skill for Codex & OpenClaw"
-description: "Use when the user asks to fix, debug, or make a specific feature/module/area work end-to-end. Triggers: 'make X work', 'fix the Y feature', 'the Z. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+description: "Autonomous engineering agent skill for Claude Code, Codex, and Gemini CLI. A plugin and MCP workflow for seamless coding."
 ---
 
 # Focused Fix — Deep-Dive Feature Repair
