@@ -1,6 +1,6 @@
 ---
 name: "board-deck-builder"
-description: "Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes."
+description: "Board deck builder agent skill. This MCP plugin and Claude Code workflow assembles comprehensive board decks. Compatible with Codex and Gemini CLI."
 license: MIT
 metadata:
   version: 1.0.0
