@@ -1,6 +1,6 @@
 ---
 name: "release-manager"
-description: "Use when the user asks to plan releases, manage changelogs, coordinate deployments, create release branches, or automate versioning."
+description: "Release manager agent skill. This MCP plugin and Claude Code workflow automates changelogs, versioning, and deployments. Compatible with Codex and Gemini CLI."
 ---
 
 # Release Manager
