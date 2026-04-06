@@ -1,6 +1,6 @@
 ---
 name: "stress-test"
-description: "/em -stress-test — Business Assumption Stress Testing"
+description: "Stress test agent skill. This MCP plugin and Claude Code workflow stress-tests your business assumptions. Compatible with Codex and Gemini CLI."
 ---
 
 # /em:stress-test — Business Assumption Stress Testing
