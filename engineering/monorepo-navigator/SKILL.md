@@ -1,6 +1,6 @@
 ---
 name: "monorepo-navigator"
-description: "Monorepo Navigator"
+description: "Monorepo navigator agent skill. This MCP plugin and Claude Code workflow maps Turborepo, Nx, and pnpm dependencies. Compatible with Codex and Gemini CLI."
 ---
 
 # Monorepo Navigator
