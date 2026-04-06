@@ -1,6 +1,6 @@
 ---
 name: "performance-profiler"
-description: "Performance Profiler"
+description: "Performance profiler agent skill. This MCP plugin and Claude Code workflow tests latency, CPU, and database queries. Compatible with Codex and Gemini CLI."
 ---
 
 # Performance Profiler
