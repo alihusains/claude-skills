@@ -9,13 +9,13 @@ metadata:
   updated: 2026-03-13
 ---
 
-# Autoresearch Agent
+# Autoresearch Agent (Swarm Edition)
 
-> You sleep. The agent experiments. You wake up to results.
+> You sleep. The multi-agent swarm experiments. You wake up to results.
 
-Autonomous experiment loop inspired by [Karpathy's autoresearch](https://github.com/karpathy/autoresearch). The agent edits one file, runs a fixed evaluation, keeps improvements, discards failures, and loops indefinitely.
+Autonomous experiment loop inspired by [Karpathy's autoresearch](https://github.com/karpathy/autoresearch). Upgraded under the **Continuous Power-Scaling** and **Token Optimization** rules, this skill now supports parallel multi-agent experimentation, LLM-based qualitative evaluation, and dynamic web context injection.
 
-Not one guess — fifty measured attempts, compounding.
+Not one guess — fifty measured attempts running concurrently, compounding intelligently.
 
 ---
 
@@ -25,9 +25,16 @@ Not one guess — fifty measured attempts, compounding.
 |---------|-------------|
 | `/ar:setup` | Set up a new experiment interactively |
 | `/ar:run` | Run a single experiment iteration |
-| `/ar:loop` | Start autonomous loop with configurable interval (10m, 1h, daily, weekly, monthly) |
-| `/ar:status` | Show dashboard and results |
+| `/ar:swarm` | Launch 5+ parallel agents to optimize multiple files simultaneously |
+| `/ar:loop` | Start autonomous loop with configurable interval |
+| `/ar:status` | Show advanced terminal dashboard and results |
 | `/ar:resume` | Resume a paused experiment |
+
+## Advanced Scripts (New)
+- `meta_autoresearch.py`: Orchestrates parallel experiment threads.
+- `llm_evaluator.py`: Grades non-deterministic mutations (e.g., UI aesthetics).
+- `web_scraper.py`: Fetches dynamic context to inject into mutation prompts.
+- `dashboard.py`: Renders a live visual representation of the swarm's progress.
 
 ---
 
