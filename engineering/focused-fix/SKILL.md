@@ -1,6 +1,6 @@
 ---
 name: "focused-fix"
-description: "Autonomous engineering agent skill for Claude Code, Codex, and Gemini CLI. A plugin and MCP workflow for seamless coding."
+description: "Focused fix agent skill. This MCP plugin and Claude Code workflow repairs entire features systematically. Compatible with Codex and Gemini CLI."
 ---
 
 # Focused Fix — Deep-Dive Feature Repair
