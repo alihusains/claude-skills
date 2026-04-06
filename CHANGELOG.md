@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added — Multi-Agent Autoresearch Swarm
 - **autoresearch-agent**: Upgraded to a 5-agent swarm architecture. Added `meta_autoresearch.py` (orchestrator), `llm_evaluator.py` (qualitative LLM judge), `web_scraper.py` (context injector), and `dashboard.py` (terminal UI).
-- **autoresearch-agent**: Added `/ar:swarm` slash command to launch 5+ parallel agents to optimize multiple files simultaneously.
+- **autoresearch-agent**: Added `/ar-swarm` slash command to launch 5+ parallel agents to optimize multiple files simultaneously.
 
 ## [2.3.1] - 2026-04-07
 

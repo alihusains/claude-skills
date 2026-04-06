@@ -23,12 +23,12 @@ Not one guess — fifty measured attempts running concurrently, compounding inte
 
 | Command | What it does |
 |---------|-------------|
-| `/ar:setup` | Set up a new experiment interactively |
-| `/ar:run` | Run a single experiment iteration |
-| `/ar:swarm` | Launch 5+ parallel agents to optimize multiple files simultaneously |
-| `/ar:loop` | Start autonomous loop with configurable interval |
-| `/ar:status` | Show advanced terminal dashboard and results |
-| `/ar:resume` | Resume a paused experiment |
+| `/ar-setup` | Set up a new experiment interactively |
+| `/ar-run` | Run a single experiment iteration |
+| `/ar-swarm` | Launch 5+ parallel agents to optimize multiple files simultaneously |
+| `/ar-loop` | Start autonomous loop with configurable interval |
+| `/ar-status` | Show advanced terminal dashboard and results |
+| `/ar-resume` | Resume a paused experiment |
 
 ## Advanced Scripts (New)
 - `meta_autoresearch.py`: Orchestrates parallel experiment threads.
