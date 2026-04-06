@@ -1,6 +1,6 @@
 ---
 name: "pr-review-expert"
-description: "Use when the user asks to review pull requests, analyze code changes, check for security issues in PRs, or assess code quality of diffs."
+description: "PR review expert agent skill. This MCP plugin and Claude Code workflow catches bugs, security issues, and test gaps. Compatible with Codex and Gemini CLI."
 ---
 
 # PR Review Expert
