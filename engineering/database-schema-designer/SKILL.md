@@ -1,6 +1,6 @@
 ---
 name: "database-schema-designer"
-description: "Use when the user asks to create ERD diagrams, normalize database schemas, design table relationships, or plan schema migrations."
+description: "Database schema designer agent skill. This MCP plugin and Claude Code workflow creates ERDs, normalizes schemas, and plans migrations. Works with Codex and Gemini CLI."
 ---
 
 # Database Schema Designer
