@@ -1,6 +1,6 @@
 ---
 name: "api-test-suite-builder"
-description: "Use when the user asks to generate API tests, create integration test suites, test REST endpoints, or build contract tests."
+description: "Generate API tests and contract suites. This autonomous agent skill and MCP plugin for Claude Code builds REST test workflows. Works with Codex or Gemini CLI."
 ---
 
 # API Test Suite Builder
