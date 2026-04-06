@@ -221,6 +221,7 @@ nav:
       - "Terraform Patterns": skills/engineering/terraform-patterns.md
       - "Helm Chart Builder": skills/engineering/helm-chart-builder.md
       - "Docker Development": skills/engineering/docker-development.md
+      - "Meta Planner": skills/engineering/meta-planner.md
       - AgentHub:
         - "AgentHub": skills/engineering/agenthub.md
         - "/hub:init": skills/engineering/agenthub-init.md

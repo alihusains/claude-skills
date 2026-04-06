@@ -23,6 +23,8 @@ This project aggregates the best skills, agents, MCP servers, tools, hooks, and 
 | # | Source | Type | Description |
 |---|--------|------|-------------|
 | 12 | [Medium: Universal Autoresearch Skill](https://medium.com/@k.balu124/i-turned-andrej-karpathys-autoresearch-into-a-universal-skill-1cb3d44fc669) | Article | Guide on turning Karpathy's autoresearch into a universal Claude Code skill |
+| 13 | [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) | Repository | Platform for making agents smarter, low-cost, and self-evolving |
+| 14 | [yhzhu99/HealthFlow](https://github.com/yhzhu99/HealthFlow) | Repository | Self-evolving AI agent with meta planning for autonomous healthcare research |
 
 ## Aggregation Philosophy
 
