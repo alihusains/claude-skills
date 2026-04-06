@@ -1,6 +1,6 @@
 ---
 name: "database-designer"
-description: "Use when the user asks to design database schemas, plan data migrations, optimize queries, choose between SQL and NoSQL, or model data relationships."
+description: "Database designer agent skill. This MCP plugin and Claude Code workflow designs schemas, optimizes queries, and models data. Compatible with Codex and Gemini CLI."
 ---
 
 # Database Designer - POWERFUL Tier Skill
