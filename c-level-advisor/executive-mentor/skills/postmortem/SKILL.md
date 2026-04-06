@@ -1,6 +1,6 @@
 ---
 name: "postmortem"
-description: "/em -postmortem — Honest Analysis of What Went Wrong"
+description: "Postmortem agent skill. This MCP plugin and Claude Code workflow offers honest analysis of business failures. Compatible with Codex and Gemini CLI."
 ---
 
 # /em:postmortem — Honest Analysis of What Went Wrong
