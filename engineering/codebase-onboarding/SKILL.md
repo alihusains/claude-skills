@@ -1,6 +1,6 @@
 ---
 name: "codebase-onboarding"
-description: "Codebase Onboarding"
+description: "Codebase onboarding agent skill. This MCP plugin and Claude Code workflow generates documentation for new developers. Compatible with Codex and Gemini CLI."
 ---
 
 # Codebase Onboarding
