@@ -5,6 +5,12 @@ All notable changes to the Claude Skills Library will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.1] - 2026-04-07
+
+### Added — Self-Evolving Agent Tooling
+- **autonomous-rd-team**: Added `rd_orchestrator.py` CLI to automatically scan the workspace, count skills/scripts, and generate actionable high-impact improvement tasks.
+- **self-improving-agent**: Added `memory_curator.py` CLI to parse Claude's auto-memory (`MEMORY.md`), extract recurring patterns, and suggest promotions to project rules or extracted skills.
+
 ## [2.3.0] - 2026-04-06
 
 ### Added — Autonomous R&D & Meta Planning
