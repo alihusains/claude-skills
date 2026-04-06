@@ -1,6 +1,6 @@
 ---
 name: "org-health-diagnostic"
-description: "Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org health, health check, or health dashboard."
+description: "Org health diagnostic agent skill. This MCP plugin and Claude Code workflow assesses org health across dimensions. Compatible with Codex and Gemini CLI."
 license: MIT
 metadata:
   version: 1.0.0
