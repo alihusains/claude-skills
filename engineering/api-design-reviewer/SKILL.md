@@ -1,6 +1,6 @@
 ---
 name: "api-design-reviewer"
-description: "API Design Reviewer"
+description: "Review REST API designs, lint conventions, and detect breaking changes. This MCP plugin and autonomous agent skill for Claude Code supports workflows in Codex and Gemini CLI."
 ---
 
 # API Design Reviewer
