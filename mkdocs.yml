@@ -374,6 +374,7 @@ nav:
     - "Solo Founder": personas/solo-founder.md
   - Orchestration: orchestration.md
   - Custom GPTs: custom-gpts.md
+  - Sources: sources.md
   - Agents:
     - Overview: agents/index.md
     - "CS Agile Product Owner": agents/cs-agile-product-owner.md
