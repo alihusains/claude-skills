@@ -1,6 +1,6 @@
 ---
 name: "demo-video"
-description: "Use when the user asks to create a demo video, product walkthrough, feature showcase, animated presentation, marketing video, or GIF from screenshots or scene descriptions. Orchestrates playwright, ffmpeg, and edge-tts MCPs to produce polished video content."
+description: "Demo video agent skill. This MCP plugin and Claude Code workflow creates product videos from screenshots using playwright and ffmpeg. Compatible with Codex and Gemini CLI."
 ---
 
 # Demo Video
