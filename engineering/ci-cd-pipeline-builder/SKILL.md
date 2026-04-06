@@ -1,6 +1,6 @@
 ---
 name: "ci-cd-pipeline-builder"
-description: "CI/CD Pipeline Builder"
+description: "CI/CD pipeline builder agent skill. This MCP plugin and Claude Code workflow generates pipelines from project stacks. Compatible with Codex and Gemini CLI."
 ---
 
 # CI/CD Pipeline Builder
