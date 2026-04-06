@@ -1,6 +1,6 @@
 ---
 name: "agent-workflow-designer"
-description: "Agent Workflow Designer"
+description: "Design multi-agent workflows. This autonomous agent skill and MCP plugin for Claude Code orchestrates system patterns. Compatible with Codex or Gemini CLI."
 ---
 
 # Agent Workflow Designer
