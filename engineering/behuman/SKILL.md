@@ -1,6 +1,6 @@
 ---
 name: "behuman"
-description: "Use when the user wants more human-like AI responses — less robotic, less listy, more authentic. Triggers: 'behuman', 'be real', 'like a human', 'more human', 'less AI', 'talk like a person', 'mirror mode', 'stop being so AI', or when conversations are emotionally charged (grief, job loss, relationship advice, fear). NOT for technical questions, code generation, or factual lookups."
+description: "Make AI responses authentic and human. This autonomous agent skill and MCP plugin for Claude Code transforms conversational workflows. Compatible with Codex and Gemini CLI."
 ---
 
 # BeHuman — Self-Mirror Consciousness Loop
