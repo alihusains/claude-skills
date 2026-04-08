@@ -19,13 +19,13 @@ agents:
 
 # Product Team Skills
 
-8 production-ready product skills covering product management, UX/UI design, and SaaS development.
+8 production-ready product skills covering product management, UX/UI design, SaaS development, and **Product Analytics**.
 
 ## Quick Start
 
 ### Claude Code
 ```
-/read product-team/product-manager-toolkit/SKILL.md
+/read product-team/product-bundle/SKILL.md
 ```
 
 ### Codex CLI
@@ -45,14 +45,16 @@ npx agent-skills-cli add alihusains/claude-skills/product-team
 | Competitive Teardown | `competitive-teardown/` | Systematic competitor analysis |
 | Landing Page Generator | `landing-page-generator/` | Conversion-optimized pages |
 | SaaS Scaffolder | `saas-scaffolder/` | Production SaaS boilerplate |
+| **Product Analytics** | `product-analytics/` | KPI definition, cohort/retention/funnel analysis |
 
 ## Python Tools
 
-9 scripts, all stdlib-only:
+10 scripts, all stdlib-only:
 
 ```bash
 python3 product-manager-toolkit/scripts/rice_prioritizer.py --help
 python3 product-strategist/scripts/okr_cascade_generator.py --help
+python3 product-bundle/scripts/metrics_calculator.py --help
 ```
 
 ## Rules

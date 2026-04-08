@@ -5,7 +5,7 @@ skills:
   - product-team/product-analytics
   - product-team/experiment-designer
 domain: product
-model: sonnet
+model: inherit
 tools: [Read, Write, Bash, Grep, Glob]
 ---
 

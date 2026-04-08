@@ -43,22 +43,32 @@ def analyze_system(workspace_root: str):
     print(f"📊 Found {analysis['total_skills']} skills and {analysis['total_scripts']} Python tools.")
 
     # Check for potential skill duplicates based on naming similarities
-    skill_names = [skill.parent.name for skill in skills]
-    potential_duplicates = []
-    for i, name1 in enumerate(skill_names):
-        for name2 in skill_names[i+1:]:
-            set1 = set(name1.replace('-', ' ').replace('_', ' ').split())
-            set2 = set(name2.replace('-', ' ').replace('_', ' ').split())
-            if len(set1.intersection(set2)) >= 2 and name1 != name2:
-                potential_duplicates.append(f"{name1} <-> {name2}")
+    # O(N) optimized approach: map tokens to list of skill names
+    token_to_skills = {}
+    for skill in skills:
+        name = skill.parent.name
+        tokens = set(name.replace('-', ' ').replace('_', ' ').split())
+        for token in tokens:
+            if len(token) >= 3: # Ignore short tokens to reduce noise
+                token_to_skills.setdefault(token, []).append(name)
 
-    analysis["potential_duplicates"] = list(set(potential_duplicates))
+    potential_duplicates = set()
+    for token, names in token_to_skills.items():
+        if len(names) > 1:
+            for i, name1 in enumerate(names):
+                for name2 in names[i+1:]:
+                    if name1 != name2:
+                        potential_duplicates.add(f"{name1} <-> {name2}")
+
+    analysis["potential_duplicates"] = list(potential_duplicates)
 
     # Check for empty script directories
+    # Optimized approach: use the pre-computed scripts list
+    non_empty_dirs = {s.parent for s in scripts if s.parent.name == "scripts"}
     empty_dirs = []
     for skill in skills:
         script_dir = skill.parent / "scripts"
-        if script_dir.exists() and not any(script_dir.iterdir()):
+        if script_dir.exists() and script_dir not in non_empty_dirs:
             empty_dirs.append(skill.parent.name)
 
     analysis["skills_needing_tools"] = empty_dirs
