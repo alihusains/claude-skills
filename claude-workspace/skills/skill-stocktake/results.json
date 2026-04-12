@@ -1,0 +1,71 @@
+{
+  "evaluated_at": "2026-04-09T00:00:00Z",
+  "mode": "full",
+  "batch_progress": {
+    "total": 29,
+    "evaluated": 29,
+    "status": "completed"
+  },
+  "skills": {
+    "v3-cli-modernization": {
+      "path": "~/.claude/skills/v3-cli-modernization/SKILL.md",
+      "verdict": "Keep",
+      "reason": "Essential for V3 swarm CLI usage; references up-to-date",
+      "mtime": "2026-04-01T10:00:00Z"
+    },
+    "v3-core-implementation": {
+      "path": "~/.claude/skills/v3-core-implementation/SKILL.md",
+      "verdict": "Improve",
+      "reason": "Needs consolidation of DDD patterns to avoid duplication with core-principles",
+      "mtime": "2026-04-01T10:00:00Z"
+    },
+    "v3-ddd-architecture": {
+      "path": "~/.claude/skills/v3-ddd-architecture/SKILL.md",
+      "verdict": "Keep",
+      "reason": "Provides critical DDD architectural constraints for V3",
+      "mtime": "2026-04-01T10:00:00Z"
+    },
+    "v3-integration-deep": {
+      "path": "~/.claude/skills/v3-integration-deep/SKILL.md",
+      "verdict": "Keep",
+      "reason": "Necessary for alpha integration tracking",
+      "mtime": "2026-04-01T10:00:00Z"
+    },
+    "v3-mcp-optimization": {
+      "path": "~/.claude/skills/v3-mcp-optimization/SKILL.md",
+      "verdict": "Keep",
+      "reason": "Core optimization skill for MCP servers",
+      "mtime": "2026-04-01T10:00:00Z"
+    },
+    "v3-memory-unification": {
+      "path": "~/.claude/skills/v3-memory-unification/SKILL.md",
+      "verdict": "Keep",
+      "reason": "AgentDB unification central to V3 performance targets",
+      "mtime": "2026-04-01T10:00:00Z"
+    },
+    "v3-performance-optimization": {
+      "path": "~/.claude/skills/v3-performance-optimization/SKILL.md",
+      "verdict": "Keep",
+      "reason": "Key to benchmarking performance targets",
+      "mtime": "2026-04-01T10:00:00Z"
+    },
+    "v3-security-overhaul": {
+      "path": "~/.claude/skills/v3-security-overhaul/SKILL.md",
+      "verdict": "Keep",
+      "reason": "Critical CVE remediation tracking",
+      "mtime": "2026-04-01T10:00:00Z"
+    },
+    "v3-swarm-coordination": {
+      "path": "~/.claude/skills/v3-swarm-coordination/SKILL.md",
+      "verdict": "Keep",
+      "reason": "Primary swarm orchestrator skill",
+      "mtime": "2026-04-01T10:00:00Z"
+    },
+    "verification-quality": {
+      "path": "~/.claude/skills/verification-quality/SKILL.md",
+      "verdict": "Merge into v3-swarm-coordination",
+      "reason": "Overlap with V3 quality assurance; consolidate to simplify",
+      "mtime": "2026-04-01T10:00:00Z"
+    }
+  }
+}
